@@ -2,7 +2,6 @@
   
 - <p align="center">
     <a href="README.md">English</a> |
-    <a href="README.zh.md">中文</a> |
     <a href="README.ja.md">日本語</a> |
     <a href="README.fr.md">Français</a> |
     <a href="README.de.md">Deutsch</a> |
