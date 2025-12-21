@@ -31,7 +31,7 @@
 
   ## Links
   - Homepage: https://hananiahhsu.github.io/
-
+  - LinkedIn: https://www.linkedin.com/in/de-moivre/
       </td>
       <td valign="top" width="38%" align="center">
         <!-- Put an image at: hananiahhsu/hananiahhsu/assets/hero.png -->
