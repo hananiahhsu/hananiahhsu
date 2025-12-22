@@ -32,10 +32,10 @@
   - Homepage: https://hananiahhsu.github.io/
   - LinkedIn: https://www.linkedin.com/in/de-moivre/
       </td>
-      <td valign="top" width="38%" align="center">
+      <td valign="top" width="38%" align="center" valign="middle">
         <!-- Put an image at: hananiahhsu/hananiahhsu/assets/hero.png -->
         <img
-          src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
+          src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/topo.png"
           width="95%"
           alt="Hero image"
         />
