@@ -36,7 +36,7 @@
         <!-- Put an image at: hananiahhsu/hananiahhsu/assets/hero.png -->
         <img
           src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/topo.png"
-          width="95%"
+          width="100%" height="260"
           alt="Hero image"
         />
       </td>
