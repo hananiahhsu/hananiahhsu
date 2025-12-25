@@ -136,37 +136,45 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
     W, H = 1200, 600
     today = values.get("updated", _dt.date.today().isoformat())
 
+    # --- Cadence series ---
     if not daily_counts:
         daily_counts = [0] * 28
     n = len(daily_counts)
-    mn, mx = min(daily_counts), max(daily_counts)
-    if mx == mn:
-        mx = mn + 1
+    mn0, mx0 = min(daily_counts), max(daily_counts)
+    mn, mx = mn0, mx0
+    flat = (mx == mn)
+    if flat:
+        mx = mn + 1  # avoid divide-by-zero
 
-    # chart box
-    cx0, cy0, cw, ch = 760, 230, 396, 170
+    # Plot size (bigger) and baseline visibility for flat series
+    cw, ch = 340, 210
     pad = 18
-    x0, y0 = cx0 + pad, cy0 + pad
+    x0, y0 = 18, 56
     w, h = cw - 2 * pad, ch - 2 * pad
 
     pts = []
     for i, v in enumerate(daily_counts):
         x = x0 + (w * i / (n - 1 if n > 1 else 1))
         y = y0 + h - (h * (v - mn) / (mx - mn))
+        if flat:
+            y = y0 + h - 1.0  # keep baseline visible above border
         pts.append((x, y))
 
     path = "M " + " L ".join([f"{x:.1f},{y:.1f}" for x, y in pts])
     area = path + f" L {x0+w:.1f},{y0+h:.1f} L {x0:.1f},{y0+h:.1f} Z"
 
-    # Language bars
-    langs = languages[:4] if languages else [("C++", 73), ("CMake", 15), ("Python", 10), ("Other", 2)]
+    # --- Language bars (relative positions) ---
+    if not languages:
+        languages = [("C++", 73), ("CMake", 15), ("Python", 10), ("Other", 2)]
+    langs = sorted(languages, key=lambda kv: kv[1], reverse=True)[:4]
     total = sum(p for _, p in langs) or 1
     langs = [(n, p * 100 / total) for n, p in langs]
     bar_x, bar_w = 92, 520
+    base_y = 56
 
     lang_rows = []
     for idx, (name, pct) in enumerate(langs):
-        y = 374 + idx * 28
+        y = base_y + idx * 28
         fill_w = bar_w * pct / 100.0
         lang_rows.append(f"""
       <g transform="translate(0,{y})">
@@ -175,7 +183,8 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
         <rect class="bar" x="{bar_x}" y="4" width="{fill_w:.1f}" height="12" rx="6"/>
         <text class="t muted" x="{bar_x+bar_w+14}" y="10" dominant-baseline="middle">{pct:.0f}%</text>
       </g>""")
-    lang_rows = "\n".join(lang_rows)
+    lang_rows = "
+".join(lang_rows)
 
     def v(k: str) -> str:
         return str(values.get(k, "—"))
@@ -283,31 +292,27 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
     <text class="h" x="0" y="0" dominant-baseline="hanging">Cadence</text>
     <text class="t" x="0" y="24" dominant-baseline="hanging">Daily contributions (last {n} days)</text>
 
-    <g transform="translate(0,62)">
-      <rect x="0" y="0" width="{cw}" height="{ch}" rx="16" fill="#f1f5f9" stroke="#e2e8f0"/>
-      <g opacity="0.55">
-        <line x1="18" y1="44" x2="{cw-18}" y2="44" stroke="#e2e8f0" stroke-width="1"/>
-        <line x1="18" y1="86" x2="{cw-18}" y2="86" stroke="#e2e8f0" stroke-width="1"/>
-        <line x1="18" y1="128" x2="{cw-18}" y2="128" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(0,54)">
+      <rect x="0" y="0" width="{cw}" height="{ch}" rx="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <g opacity="0.65">
+        <line x1="18" y1="64" x2="{cw-18}" y2="64" stroke="#e2e8f0" stroke-width="1"/>
+        <line x1="18" y1="108" x2="{cw-18}" y2="108" stroke="#e2e8f0" stroke-width="1"/>
+        <line x1="18" y1="152" x2="{cw-18}" y2="152" stroke="#e2e8f0" stroke-width="1"/>
       </g>
       <path d="{area}" fill="url(#area)"/>
       <path d="{path}" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="{pts[-1][0]:.1f}" cy="{pts[-1][1]:.1f}" r="4.5" fill="#0f172a"/>
-      <text class="tiny" x="18" y="20" dominant-baseline="hanging">min: {mn} · max: {mx if mx!=mn+1 else mn}</text>
+      <text class="tiny" x="18" y="20" dominant-baseline="hanging">min: {mn0} · max: {mx0}</text>
     </g>
 
-    <g transform="translate(0,270)">
-      <text class="h" x="0" y="0" dominant-baseline="hanging">Stability note</text>
-      <text class="t" x="0" y="24" dominant-baseline="hanging">
-        Updates on schedule via Actions. Real-time dashboards require external endpoints (less stable).
-      </text>
+    <g transform="translate(0,288)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Update mode</text>
+      <text class="t" x="0" y="24" dominant-baseline="hanging">Scheduled refresh via Actions. No third-party render services.</text>
     </g>
   </g>
 </svg>
 """
     return svg
-
-
 def build_metrics(token: str, user: str, days: int = 30, spark_days: int = 28) -> Metrics:
     today = _dt.date.today()
     date_to = _dt.datetime(today.year, today.month, today.day, 0, 0, 0, tzinfo=_dt.timezone.utc)

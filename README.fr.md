@@ -45,26 +45,13 @@ Ingénieur logiciel et mécanique. Je me concentre sur l’ingénierie de platef
 
 ## Stats
 
-<p align="left">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=hananiahhsu&show_icons=true&rank_icon=github&hide_border=true"
-    height="165"
-    alt="Stats GitHub de Hananiah Hsu"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hananiahhsu&layout=compact&hide_border=true"
-    height="165"
-    alt="Langages les plus utilisés"
-  />
-</p>
-
-<p align="left">
-  <img
-    src="https://streak-stats.demolab.com/?user=hananiahhsu&hide_border=true"
-    height="170"
-    alt="Série de contributions"
-  />
-</p>
+  <p align="left">
+    <img
+      src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
+      width="100%"
+      alt="GitHub Metrics"
+    />
+  </p>
 
 <p align="left">
   <img

@@ -45,26 +45,13 @@
 
 ## Статистика
 
-<p align="left">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=hananiahhsu&show_icons=true&rank_icon=github&hide_border=true"
-    height="165"
-    alt="GitHub статистика Hananiah Hsu"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hananiahhsu&layout=compact&hide_border=true"
-    height="165"
-    alt="Наиболее используемые языки"
-  />
-</p>
-
-<p align="left">
-  <img
-    src="https://streak-stats.demolab.com/?user=hananiahhsu&hide_border=true"
-    height="170"
-    alt="Серия вкладов"
-  />
-</p>
+  <p align="left">
+    <img
+      src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
+      width="100%"
+      alt="GitHub Metrics"
+    />
+  </p>
 
 <p align="left">
   <img
