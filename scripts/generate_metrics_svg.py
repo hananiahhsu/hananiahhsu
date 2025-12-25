@@ -144,9 +144,8 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
     mn, mx = mn0, mx0
     flat = (mx == mn)
     if flat:
-        mx = mn + 1  # avoid divide-by-zero
+        mx = mn + 1
 
-    # Plot size (bigger) and baseline visibility for flat series
     cw, ch = 340, 210
     pad = 18
     x0, y0 = 18, 56
@@ -157,34 +156,57 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
         x = x0 + (w * i / (n - 1 if n > 1 else 1))
         y = y0 + h - (h * (v - mn) / (mx - mn))
         if flat:
-            y = y0 + h - 1.0  # keep baseline visible above border
+            y = y0 + h - 1.0
         pts.append((x, y))
 
     path = "M " + " L ".join([f"{x:.1f},{y:.1f}" for x, y in pts])
     area = path + f" L {x0+w:.1f},{y0+h:.1f} L {x0:.1f},{y0+h:.1f} Z"
 
-    # --- Language bars (relative positions) ---
+    # --- Languages: stacked bar + compact legend (top 4) ---
     if not languages:
         languages = [("C++", 73), ("CMake", 15), ("Python", 10), ("Other", 2)]
     langs = sorted(languages, key=lambda kv: kv[1], reverse=True)[:4]
-    total = sum(p for _, p in langs) or 1
-    langs = [(n, p * 100 / total) for n, p in langs]
-    bar_x, bar_w = 92, 520
-    base_y = 56
+    total = sum(v for _, v in langs) or 1
+    langs_pct = [(name, v * 100 / total) for name, v in langs]
 
-    lang_rows = []
-    for idx, (name, pct) in enumerate(langs):
-        y = base_y + idx * 28
-        fill_w = bar_w * pct / 100.0
-        lang_rows.append(f"""
-      <g transform="translate(0,{y})">
-        <text class="t" x="0" y="10" dominant-baseline="middle">{name}</text>
-        <rect class="barbg" x="{bar_x}" y="4" width="{bar_w}" height="12" rx="6"/>
-        <rect class="bar" x="{bar_x}" y="4" width="{fill_w:.1f}" height="12" rx="6"/>
-        <text class="t muted" x="{bar_x+bar_w+14}" y="10" dominant-baseline="middle">{pct:.0f}%</text>
-      </g>""")
-    lang_rows = "
-".join(lang_rows)
+    bar_w = 640
+    hbar = 14
+    seg_opacities = [0.85, 0.65, 0.45, 0.28]
+
+    widths: List[int] = []
+    running = 0
+    for i, (_, pct) in enumerate(langs_pct):
+        if i < len(langs_pct) - 1:
+            wi = int(round(bar_w * pct / 100.0))
+            widths.append(wi)
+            running += wi
+        else:
+            widths.append(bar_w - running)
+
+    segs = []
+    x = 16
+    y = 22
+    for i, ((name, pct), wi) in enumerate(zip(langs_pct, widths)):
+        op = seg_opacities[i % len(seg_opacities)]
+        segs.append(f'<rect x="{x}" y="{y}" width="{wi}" height="{hbar}" fill="#0f172a" fill-opacity="{op:.2f}"/>')
+        x += wi
+    segs_svg = "\n        ".join(segs)
+
+    cols = [16, 340]
+    rows = [52, 78]
+    legend_items = []
+    for i, (name, pct) in enumerate(langs_pct):
+        cx = cols[i % 2]
+        cy = rows[i // 2]
+        op = seg_opacities[i % len(seg_opacities)]
+        legend_items.append(
+            f'<g transform="translate({cx},{cy})">'
+            f'<rect x="0" y="-8" width="12" height="12" rx="3" fill="#0f172a" fill-opacity="{op:.2f}"/>'
+            f'<text class="t" x="18" y="-2" dominant-baseline="middle">{name}</text>'
+            f'<text class="t muted" x="200" y="-2" dominant-baseline="middle">{pct:.0f}%</text>'
+            f'</g>'
+        )
+    legend_svg = "\n        ".join(legend_items)
 
     def v(k: str) -> str:
         return str(values.get(k, "—"))
@@ -209,6 +231,9 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
     </filter>
+    <clipPath id="langClip">
+      <rect x="16" y="22" width="{bar_w}" height="{hbar}" rx="7" ry="7"/>
+    </clipPath>
     <style>
       .title{{font:800 30px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}}
       .sub{{font:600 13px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}}
@@ -222,7 +247,6 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
       .kpi{{font:900 22px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}}
       .kpiLabel{{font:700 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#64748b}}
       .barbg{{fill:#e2e8f0}}
-      .bar{{fill:#0f172a}}
     </style>
   </defs>
 
@@ -282,9 +306,17 @@ def build_svg(values: dict, languages: List[Tuple[str, int]], daily_counts: List
     </g>
 
     <g transform="translate(0,276)">
-      <text class="h" x="0" y="0" dominant-baseline="hanging">Language distribution (estimated)</text>
-      <text class="tiny" x="0" y="22" dominant-baseline="hanging">Aggregated from non-fork repositories via GitHub GraphQL.</text>
-      {lang_rows}
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Language distribution</text>
+      <text class="tiny" x="0" y="22" dominant-baseline="hanging">Size-weighted across owned, non-fork repositories.</text>
+
+      <g transform="translate(0,36)">
+        <rect class="chip" x="0" y="0" width="688" height="104" rx="16"/>
+        <rect class="barbg" x="16" y="22" width="{bar_w}" height="{hbar}" rx="7"/>
+        <g clip-path="url(#langClip)">
+        {segs_svg}
+        </g>
+        {legend_svg}
+      </g>
     </g>
   </g>
 
