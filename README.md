@@ -53,26 +53,6 @@
       alt="GitHub Metrics"
     />
   </p>
-  <p align="left">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=hananiahhsu&show_icons=true&rank_icon=github&hide_border=true"
-      height="165"
-      alt="Hananiah Hsu's GitHub Stats"
-    />
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=hananiahhsu&layout=compact&hide_border=true"
-      height="165"
-      alt="Most Used Languages"
-    />
-  </p>
-
-  <p align="left">
-    <img
-      src="https://streak-stats.demolab.com?user=hananiahhsu&hide_border=true"
-      height="170"
-      alt="GitHub Streak"
-    />
-  </p>
 
   <p align="left">
     <img
