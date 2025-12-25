@@ -46,7 +46,13 @@
   ---
 
   ## Stats
-
+  <p align="left">
+    <img
+      src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
+      width="100%"
+      alt="GitHub Metrics"
+    />
+  </p>
   <p align="left">
     <img
       src="https://github-readme-stats.vercel.app/api?username=hananiahhsu&show_icons=true&rank_icon=github&hide_border=true"

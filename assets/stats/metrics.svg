@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="GitHub Metrics (static placeholder)">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font:700 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
+      .sub{font:400 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
+      .h{font:700 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
+      .t{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
+      .mono{font:600 12px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; fill:#334155}
+      .muted{fill:#64748b}
+      .chip{fill:#e2e8f0}
+      .card{fill:#ffffff; stroke:#e2e8f0; stroke-width:1}
+      .barbg{fill:#e2e8f0}
+      .bar{fill:#0f172a}
+      .ok{fill:#10b981}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="600" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <g transform="translate(40,36)">
+    <text class="title" x="0" y="0" dominant-baseline="hanging">Hananiah Hsu · GitHub Metrics</text>
+    <text class="sub" x="0" y="40" dominant-baseline="hanging">
+      Static placeholder SVG. Replace via GitHub Actions (lowlighter/metrics) for live data.
+    </text>
+
+    <!-- chips -->
+    <g transform="translate(0,74)">
+      <rect class="chip" x="0" y="0" rx="999" ry="999" width="92" height="26"/>
+      <text class="mono" x="12" y="13" dominant-baseline="middle">C++</text>
+
+      <rect class="chip" x="104" y="0" rx="999" ry="999" width="92" height="26"/>
+      <text class="mono" x="116" y="13" dominant-baseline="middle">CMake</text>
+
+      <rect class="chip" x="208" y="0" rx="999" ry="999" width="76" height="26"/>
+      <text class="mono" x="220" y="13" dominant-baseline="middle">Qt</text>
+
+      <rect class="chip" x="296" y="0" rx="999" ry="999" width="104" height="26"/>
+      <text class="mono" x="308" y="13" dominant-baseline="middle">Python</text>
+    </g>
+  </g>
+
+  <!-- Cards layout -->
+  <g filter="url(#shadow)">
+    <!-- Left big card -->
+    <rect class="card" x="40" y="140" width="720" height="420" rx="16"/>
+
+    <!-- Right top card -->
+    <rect class="card" x="780" y="140" width="380" height="200" rx="16"/>
+
+    <!-- Right bottom card -->
+    <rect class="card" x="780" y="360" width="380" height="200" rx="16"/>
+  </g>
+
+  <!-- Left card content -->
+  <g transform="translate(64,166)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">Overview</text>
+    <text class="t" x="0" y="26" dominant-baseline="hanging">
+      Use this file as a stable README image today; then enable the scheduled workflow to overwrite it with real metrics.
+    </text>
+
+    <g transform="translate(0,74)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Popular repositories</text>
+
+      <g transform="translate(0,28)">
+        <circle cx="8" cy="10" r="5" class="ok"/>
+        <text class="t" x="20" y="10" dominant-baseline="middle">SolidDesigner — CAD/CAE/TOPO desktop platform (core)</text>
+      </g>
+      <g transform="translate(0,56)">
+        <circle cx="8" cy="10" r="5" class="ok"/>
+        <text class="t" x="20" y="10" dominant-baseline="middle">OpenCAD — 2D/3D general CAD exploration</text>
+      </g>
+      <g transform="translate(0,84)">
+        <circle cx="8" cy="10" r="5" class="ok"/>
+        <text class="t" x="20" y="10" dominant-baseline="middle">SolidBIM / SolidSimulation / SolidRobot — domain extensions</text>
+      </g>
+    </g>
+
+    <g transform="translate(0,200)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Language mix (placeholder)</text>
+
+      <!-- bars -->
+      <g transform="translate(0,28)">
+        <text class="t" x="0" y="10" dominant-baseline="middle">C++</text>
+        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
+        <rect class="bar"   x="70" y="4" width="380" height="12" rx="6"/>
+        <text class="t muted" x="600" y="10" dominant-baseline="middle">~73%</text>
+      </g>
+
+      <g transform="translate(0,54)">
+        <text class="t" x="0" y="10" dominant-baseline="middle">CMake</text>
+        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
+        <rect class="bar"   x="70" y="4" width="78"  height="12" rx="6"/>
+        <text class="t muted" x="600" y="10" dominant-baseline="middle">~15%</text>
+      </g>
+
+      <g transform="translate(0,80)">
+        <text class="t" x="0" y="10" dominant-baseline="middle">Python</text>
+        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
+        <rect class="bar"   x="70" y="4" width="52"  height="12" rx="6"/>
+        <text class="t muted" x="600" y="10" dominant-baseline="middle">~10%</text>
+      </g>
+
+      <g transform="translate(0,106)">
+        <text class="t" x="0" y="10" dominant-baseline="middle">Other</text>
+        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
+        <rect class="bar"   x="70" y="4" width="10"  height="12" rx="6"/>
+        <text class="t muted" x="600" y="10" dominant-baseline="middle">~2%</text>
+      </g>
+    </g>
+
+    <g transform="translate(0,350)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Next steps</text>
+      <text class="t" x="0" y="26" dominant-baseline="hanging">
+        1) Add .github/workflows/metrics.yml  2) Set METRICS_TOKEN secret  3) Let Actions overwrite this SVG automatically.
+      </text>
+    </g>
+  </g>
+
+  <!-- Right top card content -->
+  <g transform="translate(804,166)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">Activity (placeholder)</text>
+    <text class="t" x="0" y="26" dominant-baseline="hanging">Commits · PRs · Issues · Reviews (last 14 days)</text>
+
+    <!-- simple sparkline -->
+    <g transform="translate(0,74)">
+      <rect x="0" y="0" width="332" height="80" rx="12" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <path d="M20,62 L60,62 L90,58 L120,60 L150,55 L180,40 L210,52 L240,28 L270,36 L300,20"
+            fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="300" cy="20" r="4" fill="#0f172a"/>
+      <text class="t muted" x="20" y="22" dominant-baseline="middle">示意曲线（真实数据由 Action 生成）</text>
+    </g>
+  </g>
+
+  <!-- Right bottom card content -->
+  <g transform="translate(804,386)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">Calendar (placeholder)</text>
+    <text class="t" x="0" y="26" dominant-baseline="hanging">Contribution heatmap (last 6 months)</text>
+
+    <!-- mini heatmap -->
+    <g transform="translate(0,64)">
+      <rect x="0" y="0" width="332" height="112" rx="12" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <!-- 7x20 grid -->
+      <g transform="translate(18,18)">
+        <rect x="0" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="16" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="32" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="48" y="0" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="64" y="0" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="80" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="96" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="112" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="128" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="144" y="0" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="160" y="0" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="176" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="192" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="208" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="224" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="240" y="0" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="256" y="0" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="272" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="288" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="304" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="0" y="16" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="16" y="16" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="32" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="48" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="64" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="80" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="96" y="16" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="112" y="16" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="128" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="144" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="160" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="176" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="192" y="16" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="208" y="16" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="224" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="240" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="256" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="272" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="288" y="16" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="304" y="16" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="0" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="16" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="32" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="48" y="32" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="64" y="32" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="80" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="96" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="112" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="128" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="144" y="32" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="160" y="32" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="176" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="192" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="208" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="224" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="240" y="32" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="256" y="32" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="272" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="288" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="304" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="0" y="48" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="16" y="48" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="32" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="48" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="64" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="80" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="96" y="48" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="112" y="48" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="128" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="144" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="160" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="176" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="192" y="48" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="208" y="48" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="224" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="240" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="256" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="272" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="288" y="48" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="304" y="48" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="0" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="16" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="32" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="48" y="64" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="64" y="64" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="80" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="96" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="112" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="128" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="144" y="64" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="160" y="64" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="176" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="192" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="208" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="224" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="240" y="64" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="256" y="64" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="272" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="288" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="304" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="0" y="80" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="16" y="80" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="32" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="48" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="64" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="80" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="96" y="80" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="112" y="80" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="128" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="144" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="160" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="176" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="192" y="80" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="208" y="80" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="224" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="240" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="256" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="272" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="288" y="80" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="304" y="80" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="0" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="16" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="32" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="48" y="96" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="64" y="96" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="80" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="96" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="112" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="128" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="144" y="96" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="160" y="96" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="176" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="192" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="208" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
+        <rect x="224" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
+        <rect x="240" y="96" width="12" height="12" rx="3" fill="#64748b"/>
+        <rect x="256" y="96" width="12" height="12" rx="3" fill="#334155"/>
+        <rect x="272" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
+        <rect x="288" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
+        <rect x="304" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
+      </g>
+      <text class="t muted" x="20" y="18" dominant-baseline="hanging">示意热力图（真实数据由 Action 生成）</text>
+    </g>
+  </g>
+</svg>
