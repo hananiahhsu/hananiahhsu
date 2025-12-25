@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="GitHub Metrics (static placeholder)">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="GitHub Metrics (static fallback)">
   <defs>
-    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
+
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="spark" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#0f172a" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
     </filter>
+
     <style>
-      .title{font:700 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
-      .sub{font:400 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
-      .h{font:700 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
-      .t{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
-      .mono{font:600 12px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; fill:#334155}
+      .title{font:800 30px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
+      .sub{font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
+      .tiny{font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#64748b}
+      .h{font:800 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
+      .t{font:500 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#334155}
+      .mono{font:700 11px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; fill:#334155}
       .muted{fill:#64748b}
-      .chip{fill:#e2e8f0}
       .card{fill:#ffffff; stroke:#e2e8f0; stroke-width:1}
-      .barbg{fill:#e2e8f0}
-      .bar{fill:#0f172a}
-      .ok{fill:#10b981}
+      .chip{fill:#f1f5f9; stroke:#e2e8f0; stroke-width:1}
+      .kpi{font:900 22px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#0f172a}
+      .kpiLabel{font:600 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#64748b}
+      .pill{fill:#0f172a; opacity:0.06}
+      .stroke{stroke:#e2e8f0}
     </style>
   </defs>
 
@@ -27,272 +43,315 @@
   <rect x="0" y="0" width="1200" height="600" fill="url(#bg)"/>
 
   <!-- Header -->
-  <g transform="translate(40,36)">
-    <text class="title" x="0" y="0" dominant-baseline="hanging">Hananiah Hsu · GitHub Metrics</text>
-    <text class="sub" x="0" y="40" dominant-baseline="hanging">
-      Static placeholder SVG. Replace via GitHub Actions (lowlighter/metrics) for live data.
-    </text>
+  <g transform="translate(44,34)">
+    <text class="title" x="0" y="0" dominant-baseline="hanging">Hananiah Hsu · Engineering Metrics</text>
+    <text class="sub" x="0" y="42" dominant-baseline="hanging">CAD / Simulation / Generative · C++ · Qt · OpenCascade · High-performance persistence</text>
 
-    <!-- chips -->
-    <g transform="translate(0,74)">
-      <rect class="chip" x="0" y="0" rx="999" ry="999" width="92" height="26"/>
-      <text class="mono" x="12" y="13" dominant-baseline="middle">C++</text>
-
-      <rect class="chip" x="104" y="0" rx="999" ry="999" width="92" height="26"/>
-      <text class="mono" x="116" y="13" dominant-baseline="middle">CMake</text>
-
-      <rect class="chip" x="208" y="0" rx="999" ry="999" width="76" height="26"/>
-      <text class="mono" x="220" y="13" dominant-baseline="middle">Qt</text>
-
-      <rect class="chip" x="296" y="0" rx="999" ry="999" width="104" height="26"/>
-      <text class="mono" x="308" y="13" dominant-baseline="middle">Python</text>
+    <g transform="translate(0,78)">
+      <rect x="0" y="0" width="640" height="6" rx="3" fill="url(#accent)"/>
+      <text class="tiny" x="660" y="3" dominant-baseline="middle">Static fallback · Updated: 2025-12-25</text>
     </g>
   </g>
 
-  <!-- Cards layout -->
+  <!-- Layout cards -->
   <g filter="url(#shadow)">
-    <!-- Left big card -->
-    <rect class="card" x="40" y="140" width="720" height="420" rx="16"/>
+    <!-- Left: Signals -->
+    <rect class="card" x="44" y="140" width="640" height="416" rx="18"/>
 
-    <!-- Right top card -->
-    <rect class="card" x="780" y="140" width="380" height="200" rx="16"/>
+    <!-- Right: Focus -->
+    <rect class="card" x="706" y="140" width="450" height="240" rx="18"/>
 
-    <!-- Right bottom card -->
-    <rect class="card" x="780" y="360" width="380" height="200" rx="16"/>
+    <!-- Right bottom: Calendar -->
+    <rect class="card" x="706" y="404" width="450" height="152" rx="18"/>
   </g>
 
-  <!-- Left card content -->
-  <g transform="translate(64,166)">
-    <text class="h" x="0" y="0" dominant-baseline="hanging">Overview</text>
-    <text class="t" x="0" y="26" dominant-baseline="hanging">
-      Use this file as a stable README image today; then enable the scheduled workflow to overwrite it with real metrics.
-    </text>
+  <!-- Left content: Signals -->
+  <g transform="translate(68,168)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">Signals</text>
+    <text class="t" x="0" y="24" dominant-baseline="hanging">Stable, self-hosted visuals. Intended to be overwritten by Actions.</text>
 
-    <g transform="translate(0,74)">
-      <text class="h" x="0" y="0" dominant-baseline="hanging">Popular repositories</text>
+    <!-- KPI row -->
+    <g transform="translate(0,58)">
+      <!-- tile 1 -->
+      <rect x="0" y="0" width="148" height="76" rx="14" class="chip"/>
+      <text class="kpi" x="16" y="18" dominant-baseline="hanging">—</text>
+      <text class="kpiLabel" x="16" y="52" dominant-baseline="hanging">Contrib (30d)</text>
 
-      <g transform="translate(0,28)">
-        <circle cx="8" cy="10" r="5" class="ok"/>
-        <text class="t" x="20" y="10" dominant-baseline="middle">SolidDesigner — CAD/CAE/TOPO desktop platform (core)</text>
-      </g>
-      <g transform="translate(0,56)">
-        <circle cx="8" cy="10" r="5" class="ok"/>
-        <text class="t" x="20" y="10" dominant-baseline="middle">OpenCAD — 2D/3D general CAD exploration</text>
-      </g>
-      <g transform="translate(0,84)">
-        <circle cx="8" cy="10" r="5" class="ok"/>
-        <text class="t" x="20" y="10" dominant-baseline="middle">SolidBIM / SolidSimulation / SolidRobot — domain extensions</text>
-      </g>
+      <!-- tile 2 -->
+      <rect x="164" y="0" width="148" height="76" rx="14" class="chip"/>
+      <text class="kpi" x="180" y="18" dominant-baseline="hanging">—</text>
+      <text class="kpiLabel" x="180" y="52" dominant-baseline="hanging">Commits</text>
+
+      <!-- tile 3 -->
+      <rect x="328" y="0" width="148" height="76" rx="14" class="chip"/>
+      <text class="kpi" x="344" y="18" dominant-baseline="hanging">—</text>
+      <text class="kpiLabel" x="344" y="52" dominant-baseline="hanging">PRs merged</text>
+
+      <!-- tile 4 -->
+      <rect x="492" y="0" width="148" height="76" rx="14" class="chip"/>
+      <text class="kpi" x="508" y="18" dominant-baseline="hanging">—</text>
+      <text class="kpiLabel" x="508" y="52" dominant-baseline="hanging">Stars</text>
     </g>
 
-    <g transform="translate(0,200)">
-      <text class="h" x="0" y="0" dominant-baseline="hanging">Language mix (placeholder)</text>
-
-      <!-- bars -->
-      <g transform="translate(0,28)">
-        <text class="t" x="0" y="10" dominant-baseline="middle">C++</text>
-        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
-        <rect class="bar"   x="70" y="4" width="380" height="12" rx="6"/>
-        <text class="t muted" x="600" y="10" dominant-baseline="middle">~73%</text>
-      </g>
+    <!-- Sparkline card -->
+    <g transform="translate(0,160)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Velocity (placeholder)</text>
+      <text class="t" x="0" y="24" dominant-baseline="hanging">Recent activity trend (commits / PRs / issues)</text>
 
       <g transform="translate(0,54)">
-        <text class="t" x="0" y="10" dominant-baseline="middle">CMake</text>
-        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
-        <rect class="bar"   x="70" y="4" width="78"  height="12" rx="6"/>
-        <text class="t muted" x="600" y="10" dominant-baseline="middle">~15%</text>
-      </g>
+        <rect x="0" y="0" width="616" height="120" rx="16" fill="#f1f5f9" stroke="#e2e8f0"/>
+        <!-- grid -->
+        <g opacity="0.5" class="stroke">
+          <line x1="28" y1="28" x2="588" y2="28" stroke-width="1"/>
+          <line x1="28" y1="60" x2="588" y2="60" stroke-width="1"/>
+          <line x1="28" y1="92" x2="588" y2="92" stroke-width="1"/>
+        </g>
 
-      <g transform="translate(0,80)">
-        <text class="t" x="0" y="10" dominant-baseline="middle">Python</text>
-        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
-        <rect class="bar"   x="70" y="4" width="52"  height="12" rx="6"/>
-        <text class="t muted" x="600" y="10" dominant-baseline="middle">~10%</text>
-      </g>
+        <!-- area -->
+        <path d="M28,96
+                 C70,96 88,92 112,88
+                 C146,82 160,90 192,82
+                 C226,74 246,60 274,68
+                 C304,76 322,46 354,52
+                 C388,58 404,34 436,40
+                 C472,46 488,26 518,30
+                 C548,34 564,22 588,20
+                 L588,112 L28,112 Z"
+              fill="url(#spark)"/>
 
-      <g transform="translate(0,106)">
-        <text class="t" x="0" y="10" dominant-baseline="middle">Other</text>
-        <rect class="barbg" x="70" y="4" width="520" height="12" rx="6"/>
-        <rect class="bar"   x="70" y="4" width="10"  height="12" rx="6"/>
-        <text class="t muted" x="600" y="10" dominant-baseline="middle">~2%</text>
+        <!-- line -->
+        <path d="M28,96
+                 C70,96 88,92 112,88
+                 C146,82 160,90 192,82
+                 C226,74 246,60 274,68
+                 C304,76 322,46 354,52
+                 C388,58 404,34 436,40
+                 C472,46 488,26 518,30
+                 C548,34 564,22 588,20"
+              fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="588" cy="20" r="4.5" fill="#0f172a"/>
+        <text class="tiny" x="28" y="18" dominant-baseline="hanging">示意曲线 · 真实数据由 Action 生成</text>
       </g>
     </g>
 
-    <g transform="translate(0,350)">
-      <text class="h" x="0" y="0" dominant-baseline="hanging">Next steps</text>
-      <text class="t" x="0" y="26" dominant-baseline="hanging">
-        1) Add .github/workflows/metrics.yml  2) Set METRICS_TOKEN secret  3) Let Actions overwrite this SVG automatically.
+    <!-- Chips -->
+    <g transform="translate(0,314)">
+      <text class="h" x="0" y="0" dominant-baseline="hanging">Tech stack</text>
+
+      <g transform="translate(0,28)">
+        <rect class="pill" x="0" y="0" rx="999" ry="999" width="110" height="26"/>
+        <text class="mono" x="14" y="13" dominant-baseline="middle">C++</text>
+
+        <rect class="pill" x="122" y="0" rx="999" ry="999" width="92" height="26"/>
+        <text class="mono" x="136" y="13" dominant-baseline="middle">Qt</text>
+
+        <rect class="pill" x="224" y="0" rx="999" ry="999" width="134" height="26"/>
+        <text class="mono" x="238" y="13" dominant-baseline="middle">OpenCascade</text>
+
+        <rect class="pill" x="368" y="0" rx="999" ry="999" width="108" height="26"/>
+        <text class="mono" x="382" y="13" dominant-baseline="middle">CMake</text>
+
+        <rect class="pill" x="486" y="0" rx="999" ry="999" width="118" height="26"/>
+        <text class="mono" x="500" y="13" dominant-baseline="middle">Python</text>
+      </g>
+
+      <text class="t" x="0" y="74" dominant-baseline="hanging">
+        Architecture motifs: feature history · regen · constraints · storage/versioning · plugin ecosystem
       </text>
     </g>
   </g>
 
-  <!-- Right top card content -->
-  <g transform="translate(804,166)">
-    <text class="h" x="0" y="0" dominant-baseline="hanging">Activity (placeholder)</text>
-    <text class="t" x="0" y="26" dominant-baseline="hanging">Commits · PRs · Issues · Reviews (last 14 days)</text>
+  <!-- Right content: Focus -->
+  <g transform="translate(730,168)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">What I build</text>
+    <text class="t" x="0" y="24" dominant-baseline="hanging">A coherent platform for design, simulation, and generative workflows.</text>
 
-    <!-- simple sparkline -->
-    <g transform="translate(0,74)">
-      <rect x="0" y="0" width="332" height="80" rx="12" fill="#f1f5f9" stroke="#e2e8f0"/>
-      <path d="M20,62 L60,62 L90,58 L120,60 L150,55 L180,40 L210,52 L240,28 L270,36 L300,20"
-            fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="300" cy="20" r="4" fill="#0f172a"/>
-      <text class="t muted" x="20" y="22" dominant-baseline="middle">示意曲线（真实数据由 Action 生成）</text>
+    <!-- three pillars -->
+    <g transform="translate(0,62)">
+      <!-- CAD -->
+      <rect class="chip" x="0" y="0" width="138" height="144" rx="16"/>
+      <text class="h" x="16" y="16" dominant-baseline="hanging">CAD</text>
+      <text class="t" x="16" y="44" dominant-baseline="hanging">B-Rep</text>
+      <text class="t" x="16" y="64" dominant-baseline="hanging">Sketch</text>
+      <text class="t" x="16" y="84" dominant-baseline="hanging">Features</text>
+      <!-- icon cube -->
+      <g transform="translate(86,88)">
+        <path d="M0,20 L22,8 L44,20 L22,32 Z" fill="#0f172a" opacity="0.10"/>
+        <path d="M22,8 L22,32" stroke="#0f172a" opacity="0.55" stroke-width="2"/>
+        <path d="M0,20 L22,32 L44,20" stroke="#0f172a" opacity="0.55" stroke-width="2" fill="none"/>
+        <path d="M0,20 L22,8 L44,20" stroke="#0f172a" opacity="0.55" stroke-width="2" fill="none"/>
+      </g>
+
+      <!-- Simulation -->
+      <rect class="chip" x="156" y="0" width="138" height="144" rx="16"/>
+      <text class="h" x="172" y="16" dominant-baseline="hanging">Simulation</text>
+      <text class="t" x="172" y="44" dominant-baseline="hanging">Loads</text>
+      <text class="t" x="172" y="64" dominant-baseline="hanging">Fields</text>
+      <text class="t" x="172" y="84" dominant-baseline="hanging">Results</text>
+      <!-- icon wave -->
+      <g transform="translate(242,94)">
+        <path d="M-10,10 C0,0 10,0 20,10 C30,20 40,20 50,10" fill="none" stroke="#0f172a" opacity="0.55" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M-10,20 C0,10 10,10 20,20 C30,30 40,30 50,20" fill="none" stroke="#0f172a" opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+
+      <!-- Generative -->
+      <rect class="chip" x="312" y="0" width="138" height="144" rx="16"/>
+      <text class="h" x="328" y="16" dominant-baseline="hanging">Generative</text>
+      <text class="t" x="328" y="44" dominant-baseline="hanging">TOPO</text>
+      <text class="t" x="328" y="64" dominant-baseline="hanging">Lattice</text>
+      <text class="t" x="328" y="84" dominant-baseline="hanging">Search</text>
+      <!-- icon lattice -->
+      <g transform="translate(338,98)" opacity="0.55">
+        <circle cx="10" cy="10" r="3" fill="#0f172a"/>
+        <circle cx="34" cy="6" r="3" fill="#0f172a"/>
+        <circle cx="52" cy="18" r="3" fill="#0f172a"/>
+        <circle cx="22" cy="28" r="3" fill="#0f172a"/>
+        <path d="M10,10 L34,6 L52,18 L22,28 Z" fill="none" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M10,10 L22,28" fill="none" stroke="#0f172a" stroke-width="2"/>
+        <path d="M34,6 L22,28" fill="none" stroke="#0f172a" stroke-width="2"/>
+      </g>
     </g>
   </g>
 
-  <!-- Right bottom card content -->
-  <g transform="translate(804,386)">
-    <text class="h" x="0" y="0" dominant-baseline="hanging">Calendar (placeholder)</text>
-    <text class="t" x="0" y="26" dominant-baseline="hanging">Contribution heatmap (last 6 months)</text>
+  <!-- Right bottom: Calendar + note -->
+  <g transform="translate(730,430)">
+    <text class="h" x="0" y="0" dominant-baseline="hanging">Contribution map (placeholder)</text>
+    <text class="t" x="0" y="24" dominant-baseline="hanging">Static preview; Actions can overwrite with a real calendar.</text>
 
-    <!-- mini heatmap -->
-    <g transform="translate(0,64)">
-      <rect x="0" y="0" width="332" height="112" rx="12" fill="#f1f5f9" stroke="#e2e8f0"/>
-      <!-- 7x20 grid -->
-      <g transform="translate(18,18)">
-        <rect x="0" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="16" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="32" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="48" y="0" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="64" y="0" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="80" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="96" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="112" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="128" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="144" y="0" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="160" y="0" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="176" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="192" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="208" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="224" y="0" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="240" y="0" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="256" y="0" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="272" y="0" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="288" y="0" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="304" y="0" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="0" y="16" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="16" y="16" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="32" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="48" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="64" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="80" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="96" y="16" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="112" y="16" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="128" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="144" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="160" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="176" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="192" y="16" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="208" y="16" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="224" y="16" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="240" y="16" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="256" y="16" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="272" y="16" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="288" y="16" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="304" y="16" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="0" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="16" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="32" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="48" y="32" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="64" y="32" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="80" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="96" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="112" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="128" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="144" y="32" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="160" y="32" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="176" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="192" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="208" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="224" y="32" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="240" y="32" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="256" y="32" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="272" y="32" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="288" y="32" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="304" y="32" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="0" y="48" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="16" y="48" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="32" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="48" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="64" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="80" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="96" y="48" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="112" y="48" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="128" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="144" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="160" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="176" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="192" y="48" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="208" y="48" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="224" y="48" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="240" y="48" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="256" y="48" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="272" y="48" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="288" y="48" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="304" y="48" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="0" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="16" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="32" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="48" y="64" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="64" y="64" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="80" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="96" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="112" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="128" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="144" y="64" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="160" y="64" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="176" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="192" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="208" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="224" y="64" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="240" y="64" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="256" y="64" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="272" y="64" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="288" y="64" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="304" y="64" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="0" y="80" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="16" y="80" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="32" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="48" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="64" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="80" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="96" y="80" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="112" y="80" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="128" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="144" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="160" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="176" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="192" y="80" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="208" y="80" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="224" y="80" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="240" y="80" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="256" y="80" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="272" y="80" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="288" y="80" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="304" y="80" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="0" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="16" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="32" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="48" y="96" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="64" y="96" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="80" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="96" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="112" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="128" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="144" y="96" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="160" y="96" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="176" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="192" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="208" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
-        <rect x="224" y="96" width="12" height="12" rx="3" fill="#94a3b8"/>
-        <rect x="240" y="96" width="12" height="12" rx="3" fill="#64748b"/>
-        <rect x="256" y="96" width="12" height="12" rx="3" fill="#334155"/>
-        <rect x="272" y="96" width="12" height="12" rx="3" fill="#0f172a"/>
-        <rect x="288" y="96" width="12" height="12" rx="3" fill="#e2e8f0"/>
-        <rect x="304" y="96" width="12" height="12" rx="3" fill="#cbd5e1"/>
+    <g transform="translate(0,56)">
+      <rect x="0" y="0" width="426" height="72" rx="14" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <g transform="translate(16,14)">
+        <rect x="0" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="14" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="28" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="42" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="56" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="70" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="84" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="98" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="112" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="126" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="140" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="154" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="168" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="182" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="196" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="210" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="224" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="238" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="252" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="266" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="280" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="294" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="308" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="322" y="0" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="336" y="0" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="350" y="0" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="0" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="14" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="28" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="42" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="56" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="70" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="84" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="98" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="112" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="126" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="140" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="154" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="168" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="182" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="196" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="210" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="224" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="238" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="252" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="266" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="280" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="294" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="308" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="322" y="14" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="336" y="14" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="350" y="14" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="0" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="14" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="28" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="42" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="56" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="70" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="84" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="98" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="112" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="126" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="140" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="154" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="168" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="182" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="196" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="210" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="224" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="238" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="252" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="266" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="280" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="294" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="308" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="322" y="28" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="336" y="28" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="350" y="28" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="0" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="14" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="28" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="42" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="56" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="70" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="84" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="98" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="112" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="126" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="140" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="154" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="168" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="182" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="196" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="210" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="224" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="238" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="252" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="266" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="280" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="294" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="308" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="322" y="42" width="10" height="10" rx="3" fill="#cbd5e1"/>
+        <rect x="336" y="42" width="10" height="10" rx="3" fill="#64748b"/>
+        <rect x="350" y="42" width="10" height="10" rx="3" fill="#0f172a"/>
+        <rect x="0" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="14" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="28" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="42" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="56" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="70" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="84" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="98" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="112" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="126" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="140" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="154" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="168" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="182" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="196" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="210" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="224" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="238" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="252" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="266" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="280" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="294" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="308" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
+        <rect x="322" y="56" width="10" height="10" rx="3" fill="#334155"/>
+        <rect x="336" y="56" width="10" height="10" rx="3" fill="#e2e8f0"/>
+        <rect x="350" y="56" width="10" height="10" rx="3" fill="#94a3b8"/>
       </g>
-      <text class="t muted" x="20" y="18" dominant-baseline="hanging">示意热力图（真实数据由 Action 生成）</text>
     </g>
   </g>
 </svg>
