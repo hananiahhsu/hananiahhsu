@@ -1,0 +1,52 @@
+name: metrics-svg
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily, adjust as you like
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Generate metrics.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          mkdir -p scripts assets/stats
+          # Ensure script exists in repo
+          if [ ! -f scripts/generate_metrics_svg.py ]; then
+            echo "scripts/generate_metrics_svg.py not found. Add it to your repo."
+            exit 1
+          fi
+          python scripts/generate_metrics_svg.py --user hananiahhsu --out assets/stats/metrics.svg
+
+      - name: Commit and push (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/metrics.svg
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore: update metrics.svg"
+          git push
