@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Self-hosted GitHub metrics SVG (dark dashboard) - v3
+Self-hosted GitHub metrics SVG (dark dashboard) - v4
 
 Change:
 - Removed letter grade (A/B/C/D). Signal ring now shows only signal percentage.
+- Improved star aggregation with configurable scope (owned/affiliated/contributed/all).
 
 Env:
   GITHUB_TOKEN (recommended) or METRICS_TOKEN
@@ -80,29 +81,83 @@ def fetch_contrib_window(token: str, user: str, date_from: str, date_to: str):
     )
 
 
-def fetch_total_stars(token: str, user: str) -> int:
+def fetch_total_stars(token: str, user: str, scope: str = "affiliated") -> int:
+    # Sum of stargazerCount across repositories (current stars), NOT "repos you starred".
+    # scope: owned | affiliated | contributed | all
+    seen_ids = set()
     total = 0
-    after: Optional[str] = None
-    query = r"""
-    query($login:String!, $after:String) {
-      user(login:$login) {
-        repositories(first: 100, after: $after, ownerAffiliations: OWNER, isFork:false) {
-          pageInfo { hasNextPage endCursor }
-          nodes { stargazerCount }
+
+    def accumulate(nodes):
+        nonlocal total
+        for n in nodes or []:
+            rid = n.get("id")
+            if not rid or rid in seen_ids:
+                continue
+            seen_ids.add(rid)
+            total += int(n.get("stargazerCount") or 0)
+
+    def page_through_repositories(owner_affiliations):
+        cur = None
+        q = r'''
+        query($login:String!, $after:String) {
+          user(login:$login) {
+            repositories(first: 100, after: $after,
+              ownerAffiliations: OWNER_AFFILIATIONS,
+              isFork:false) {
+              pageInfo { hasNextPage endCursor }
+              nodes { id stargazerCount }
+            }
+          }
         }
-      }
-    }
-    """
-    while True:
-        d = gql(token, query, {"login": user, "after": after})
-        repos = d["user"]["repositories"]
-        for node in repos["nodes"]:
-            total += int(node["stargazerCount"])
-        pi = repos["pageInfo"]
-        if not pi["hasNextPage"]:
-            break
-        after = pi["endCursor"]
+        '''.replace("OWNER_AFFILIATIONS", owner_affiliations)
+
+        while True:
+            d = gql(token, q, {"login": user, "after": cur})
+            repos = d["user"]["repositories"]
+            accumulate(repos.get("nodes"))
+            pi = repos["pageInfo"]
+            if not pi["hasNextPage"]:
+                break
+            cur = pi["endCursor"]
+
+    def page_through_contributed():
+        cur = None
+        q = r'''
+        query($login:String!, $after:String) {
+          user(login:$login) {
+            repositoriesContributedTo(first: 100, after: $after, includeUserRepositories: true) {
+              pageInfo { hasNextPage endCursor }
+              nodes { id stargazerCount isFork }
+            }
+          }
+        }
+        '''
+        while True:
+            d = gql(token, q, {"login": user, "after": cur})
+            conn = d["user"]["repositoriesContributedTo"]
+            nodes = [n for n in (conn.get("nodes") or []) if not n.get("isFork")]
+            accumulate(nodes)
+            pi = conn["pageInfo"]
+            if not pi["hasNextPage"]:
+                break
+            cur = pi["endCursor"]
+
+    if scope not in {"owned", "affiliated", "contributed", "all"}:
+        raise ValueError(f"Invalid stars scope: {scope}")
+
+    if scope == "owned":
+        page_through_repositories("[OWNER]")
+        return total
+
+    if scope in {"affiliated", "all"}:
+        page_through_repositories("[OWNER, ORGANIZATION_MEMBER, COLLABORATOR]")
+
+    if scope in {"contributed", "all"}:
+        page_through_contributed()
+
     return total
+
+
 
 
 def _fmt_num(x: Optional[int]) -> str:
@@ -344,7 +399,7 @@ def build_svg(m: Metrics) -> str:
 """
 
 
-def build_metrics(token: str, user: str) -> Metrics:
+def build_metrics(token: str, user: str, stars_scope: str) -> Metrics:
     now = _dt.datetime.utcnow()
     to = now.isoformat() + "Z"
     from_year = (now - _dt.timedelta(days=365)).isoformat() + "Z"
@@ -352,7 +407,7 @@ def build_metrics(token: str, user: str) -> Metrics:
 
     contrib_y, commits_y, prs_y, issues_y, days_y = fetch_contrib_window(token, user, from_year, to)
     _, _, _, _, days_30 = fetch_contrib_window(token, user, from_30, to)
-    stars = fetch_total_stars(token, user)
+    stars = fetch_total_stars(token, user, scope=stars_scope)
 
     return Metrics(
         updated=_dt.date.today().isoformat(),
@@ -370,6 +425,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--stars-scope", default="affiliated", choices=["owned","affiliated","contributed","all"], help="Which repos to include when summing stars")
     args = ap.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
@@ -377,7 +433,7 @@ def main() -> int:
         print("ERROR: missing GITHUB_TOKEN (or METRICS_TOKEN) in environment.", file=sys.stderr)
         return 2
 
-    m = build_metrics(token, args.user)
+    m = build_metrics(token, args.user, args.stars_scope)
     svg = build_svg(m)
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
