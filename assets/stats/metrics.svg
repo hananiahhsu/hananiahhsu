@@ -29,6 +29,7 @@
       .label{font:650 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#cbd5e1}
       .value{font:900 16px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
       .big{font:900 34px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
+      .mid{font:900 22px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
       .small{font:650 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#9ca3af}
       .card{fill:url(#card); stroke:#1f2937; stroke-width:1}
       .sep{stroke:#1f2937; stroke-width:1}
@@ -80,15 +81,16 @@
   </g>
 
   <line class="sep" x1="84" y1="400" x2="600" y2="400"/>
-  <text class="small" x="84" y="420" dominant-baseline="hanging">Signal grade is derived from active days + total contributions in the last year.</text>
+  <text class="small" x="84" y="420" dominant-baseline="hanging">Signal is derived from active days + total contributions in the last year.</text>
 
+  <!-- Signal ring (no letter grade) -->
   <g>
     <circle cx="482" cy="290" r="54" fill="none" stroke="#1f2937" stroke-width="10"/>
     <circle cx="482" cy="290" r="54" fill="none" stroke="#ff4d8d" stroke-width="10"
             stroke-linecap="round" transform="rotate(-90 482 290)"
             stroke-dasharray="80.41 258.88"/>
-    <text class="big" x="482" y="278" text-anchor="middle" dominant-baseline="middle">D</text>
-    <text class="small" x="482" y="314" text-anchor="middle" dominant-baseline="middle">23% signal</text>
+    <text class="big" x="482" y="280" text-anchor="middle" dominant-baseline="middle">24%</text>
+    <text class="small" x="482" y="312" text-anchor="middle" dominant-baseline="middle">signal</text>
   </g>
 
   <g transform="translate(682,166)">
