@@ -45,18 +45,19 @@ Software- und Maschinenbauingenieur. Fokus auf CAD/CAE/TOPO-Plattformentwicklung
 
 ## Stats
 
-  <p align="left">
-    <img
-      src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
-      width="100%"
-      alt="GitHub Metrics"
-    />
-  </p>
+<p align="left">
+  <img
+    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
+    width="100%"
+    alt="GitHub Metrics"
+  />
+</p>
 
 <p align="left">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=hananiahhsu&hide_border=true"
-    alt="Beitrags-Graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=hananiahhsu&theme=github-compact&hide_border=true&area=false"
+    width="100%"
+    alt="Contribution Graph"
   />
 </p>
 
