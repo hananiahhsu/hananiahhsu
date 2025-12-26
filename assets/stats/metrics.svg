@@ -29,7 +29,6 @@
       .label{font:650 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#cbd5e1}
       .value{font:900 16px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
       .big{font:900 34px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
-      .mid{font:900 22px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#e5e7eb}
       .small{font:650 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; fill:#9ca3af}
       .card{fill:url(#card); stroke:#1f2937; stroke-width:1}
       .sep{stroke:#1f2937; stroke-width:1}
@@ -56,40 +55,39 @@
     <g transform="translate(0,0)">
       <circle cx="10" cy="12" r="5" fill="#ff4d8d"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Stars Earned</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">5</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">71</text>
     </g>
     <g transform="translate(0,38)">
       <circle cx="10" cy="12" r="5" fill="#3b82f6"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Commits</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">197</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">204</text>
     </g>
     <g transform="translate(0,76)">
       <circle cx="10" cy="12" r="5" fill="#22c55e"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total PRs</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">0</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">11</text>
     </g>
     <g transform="translate(0,114)">
       <circle cx="10" cy="12" r="5" fill="#f59e0b"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Issues</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">0</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">5</text>
     </g>
     <g transform="translate(0,152)">
       <circle cx="10" cy="12" r="5" fill="#a78bfa"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Contributions</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">390</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">397</text>
     </g>
   </g>
 
   <line class="sep" x1="84" y1="400" x2="600" y2="400"/>
   <text class="small" x="84" y="420" dominant-baseline="hanging">Signal is derived from active days + total contributions in the last year.</text>
 
-  <!-- Signal ring (no letter grade) -->
   <g>
     <circle cx="482" cy="290" r="54" fill="none" stroke="#1f2937" stroke-width="10"/>
     <circle cx="482" cy="290" r="54" fill="none" stroke="#ff4d8d" stroke-width="10"
             stroke-linecap="round" transform="rotate(-90 482 290)"
-            stroke-dasharray="80.41 258.88"/>
-    <text class="big" x="482" y="280" text-anchor="middle" dominant-baseline="middle">24%</text>
+            stroke-dasharray="96.16 243.14"/>
+    <text class="big" x="482" y="280" text-anchor="middle" dominant-baseline="middle">28%</text>
     <text class="small" x="482" y="312" text-anchor="middle" dominant-baseline="middle">signal</text>
   </g>
 
@@ -97,24 +95,24 @@
     <text class="label" x="0" y="0" dominant-baseline="hanging">Consistency</text>
 
     <g transform="translate(0,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">53</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">68</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Active days (1y)</text>
     </g>
     <g transform="translate(170,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">1</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">3</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Current streak (days)</text>
     </g>
     <g transform="translate(340,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">1</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">11</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Longest streak (1y)</text>
-      <text class="mono" x="0" y="70" dominant-baseline="hanging">2024-12-27 → 2024-12-27</text>
+      <text class="mono" x="0" y="70" dominant-baseline="hanging">2025-10-22 → 2025-11-01</text>
     </g>
   </g>
 
   <g transform="translate(674,354)">
     <text class="label" x="0" y="0" dominant-baseline="hanging">Cadence</text>
     <text class="small" x="0" y="22" dominant-baseline="hanging">Daily contributions (last 28 days)</text>
-    <text class="mono" x="462" y="0" text-anchor="end" dominant-baseline="hanging">min 0 · max 32</text>
+    <text class="mono" x="462" y="0" text-anchor="end" dominant-baseline="hanging">min 0 · max 66</text>
 
     <g opacity="0.70">
       <line class="grid" x1="0" y1="76" x2="462" y2="76"/>
@@ -122,8 +120,8 @@
       <line class="grid" x1="0" y1="136.0" x2="462" y2="136.0"/>
     </g>
 
-    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,136.0 L 119.8,136.0 L 136.9,136.0 L 154.0,136.0 L 171.1,136.0 L 188.2,136.0 L 205.3,136.0 L 222.4,136.0 L 239.6,136.0 L 256.7,136.0 L 273.8,136.0 L 290.9,136.0 L 308.0,136.0 L 325.1,136.0 L 342.2,106.8 L 359.3,136.0 L 376.4,136.0 L 393.6,136.0 L 410.7,58.0 L 427.8,136.0 L 444.9,136.0 L 462.0,92.1 L 462.0,136.0 L 0.0,136.0 Z" fill="url(#sparkFill)"/>
-    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,136.0 L 119.8,136.0 L 136.9,136.0 L 154.0,136.0 L 171.1,136.0 L 188.2,136.0 L 205.3,136.0 L 222.4,136.0 L 239.6,136.0 L 256.7,136.0 L 273.8,136.0 L 290.9,136.0 L 308.0,136.0 L 325.1,136.0 L 342.2,106.8 L 359.3,136.0 L 376.4,136.0 L 393.6,136.0 L 410.7,58.0 L 427.8,136.0 L 444.9,136.0 L 462.0,92.1" fill="none" stroke="#e5e7eb" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
-    <circle cx="462.0" cy="92.1" r="4.8" fill="#ff4d8d"/>
+    <path d="M 0.0,133.6 L 17.1,134.8 L 34.2,133.6 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,136.0 L 119.8,136.0 L 136.9,136.0 L 154.0,134.8 L 171.1,136.0 L 188.2,136.0 L 205.3,136.0 L 222.4,136.0 L 239.6,130.1 L 256.7,125.4 L 273.8,134.8 L 290.9,136.0 L 308.0,134.8 L 325.1,114.7 L 342.2,134.8 L 359.3,89.9 L 376.4,58.0 L 393.6,132.5 L 410.7,136.0 L 427.8,130.1 L 444.9,121.8 L 462.0,124.2 L 462.0,136.0 L 0.0,136.0 Z" fill="url(#sparkFill)"/>
+    <path d="M 0.0,133.6 L 17.1,134.8 L 34.2,133.6 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,136.0 L 119.8,136.0 L 136.9,136.0 L 154.0,134.8 L 171.1,136.0 L 188.2,136.0 L 205.3,136.0 L 222.4,136.0 L 239.6,130.1 L 256.7,125.4 L 273.8,134.8 L 290.9,136.0 L 308.0,134.8 L 325.1,114.7 L 342.2,134.8 L 359.3,89.9 L 376.4,58.0 L 393.6,132.5 L 410.7,136.0 L 427.8,130.1 L 444.9,121.8 L 462.0,124.2" fill="none" stroke="#e5e7eb" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+    <circle cx="462.0" cy="124.2" r="4.8" fill="#ff4d8d"/>
   </g>
 </svg>
