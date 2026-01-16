@@ -26,19 +26,15 @@
 - **[OpenCAD](https://github.com/hananiahhsu/OpenCAD)** — 2D/3D 汎用 CAD の探索
 - **[SolidBIM](https://github.com/hananiahhsu/SolidBIM)** / **[SolidSimulation](https://github.com/hananiahhsu/SolidSimulation)** / **[SolidRobot](https://github.com/hananiahhsu/SolidRobot)** — ドメイン拡張
 
-## リンク
-- Homepage: https://hananiahhsu.github.io/
-- ⏺️ LinkedIn: https://www.linkedin.com/in/de-moivre/
-
-    </td>
-    <td valign="top" width="38%" align="center">
-      <img
-        src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
-        width="95%"
-        alt="Hero image"
-      />
-    </td>
-  </tr>
+</td>
+<td valign="top" width="38%" align="center">
+  <img
+    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
+    width="95%"
+    alt="Hero image"
+  />
+</td>
+</tr>
 </table>
 
 ---

@@ -26,19 +26,17 @@ Ingeniero de software y mecánico. Enfocado en ingeniería de plataformas CAD/CA
 - **[OpenCAD](https://github.com/hananiahhsu/OpenCAD)** — exploración de CAD general 2D/3D
 - **[SolidBIM](https://github.com/hananiahhsu/SolidBIM)** / **[SolidSimulation](https://github.com/hananiahhsu/SolidSimulation)** / **[SolidRobot](https://github.com/hananiahhsu/SolidRobot)** — extensiones de dominio
 
-## Enlaces
-- Homepage: https://hananiahhsu.github.io/
-- ⏺️ LinkedIn: https://www.linkedin.com/in/de-moivre/
 
-    </td>
-    <td valign="top" width="38%" align="center">
-      <img
-        src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
-        width="95%"
-        alt="Hero image"
-      />
-    </td>
-  </tr>
+
+</td>
+<td valign="top" width="38%" align="center">
+  <img
+    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
+    width="95%"
+    alt="Hero image"
+  />
+</td>
+</tr>
 </table>
 
 ---

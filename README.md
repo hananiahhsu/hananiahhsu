@@ -28,49 +28,47 @@
   - **[OpenCAD](https://github.com/hananiahhsu/OpenCAD)** — 2D/3D general CAD exploration
   - **[SolidBIM](https://github.com/hananiahhsu/SolidBIM)** / **[SolidSimulation](https://github.com/hananiahhsu/SolidSimulation)** / **[SolidRobot](https://github.com/hananiahhsu/SolidRobot)** — domain extensions
 
-  ## Links
-  - Homepage: https://hananiahhsu.github.io/
-  - LinkedIn: https://www.linkedin.com/in/de-moivre/
-      </td>
-      <td valign="top" width="38%" align="center" valign="middle">
-        <!-- Put an image at: hananiahhsu/hananiahhsu/assets/hero.png -->
-        <img
-          src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/topo.png"
-          width="100%" height="260"
-          alt="Hero image"
-        />
-      </td>
-    </tr>
+  
+  </td>
+  <td valign="top" width="38%" align="center" valign="middle">
+    <!-- Put an image at: hananiahhsu/hananiahhsu/assets/hero.png -->
+    <img
+      src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/topo.png"
+      width="100%" height="260"
+      alt="Hero image"
+    />
+  </td>
+  </tr>
   </table>
-
+  
   ---
 
   ## Stats
-  <p align="left">
+    <p align="left">
     <img
       src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
       width="100%"
       alt="GitHub Metrics"
     />
   </p>
-
+  
   <p align="left">
-    <img
+      <img
       src="https://github-readme-activity-graph.vercel.app/graph?username=hananiahhsu&theme=github-compact&hide_border=true&area=false"
       width="100%"
       alt="Contribution Graph"
     />
   </p>
-
+  
   ---
 
   ## What I build
-  - **CAD platform architecture**: document/session/command framework, modular products, plugin ecosystem
+    - **CAD platform architecture**: document/session/command framework, modular products, plugin ecosystem
   - **Geometry kernel integration**: OpenCascade-based modeling, robust B-Rep workflows
   - **Parametric/feature modeling**: feature tree, regeneration, constraints, history-based pipelines
   - **Persistence & performance**: high-throughput serialization, versioning, upgrade pipelines
-
+  
   ---
 
   ## Notes
-  - Translations may lag behind the English README. The English version is the canonical reference.
+    - Translations may lag behind the English README. The English version is the canonical reference.

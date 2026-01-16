@@ -26,19 +26,17 @@ Ingénieur logiciel et mécanique. Je me concentre sur l’ingénierie de platef
 - **[OpenCAD](https://github.com/hananiahhsu/OpenCAD)** — exploration CAD généraliste 2D/3D
 - **[SolidBIM](https://github.com/hananiahhsu/SolidBIM)** / **[SolidSimulation](https://github.com/hananiahhsu/SolidSimulation)** / **[SolidRobot](https://github.com/hananiahhsu/SolidRobot)** — extensions métier
 
-## Liens
-- Site: https://hananiahhsu.github.io/
-- ⏺️ LinkedIn: https://www.linkedin.com/in/de-moivre/
 
-    </td>
-    <td valign="top" width="38%" align="center">
-      <img
-        src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
-        width="95%"
-        alt="Hero image"
-      />
-    </td>
-  </tr>
+
+</td>
+<td valign="top" width="38%" align="center">
+  <img
+    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
+    width="95%"
+    alt="Hero image"
+  />
+</td>
+</tr>
 </table>
 
 ---
