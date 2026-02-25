@@ -1,5 +1,6 @@
 <p align="center">
   <a href="README.md">English</a> |
+  <a href="README.zh.md">中文</a> |
   <a href="README.ja.md">日本語</a> |
   <a href="README.fr.md">Français</a> |
   <a href="README.de.md">Deutsch</a> |
@@ -7,33 +8,61 @@
   <a href="README.ru.md">Русский</a>
 </p>
 
-# Hananiah Hsu
+<h1 align="center">SolidDesigner</h1>
 
-Ingeniero de software y mecánico. Enfocado en ingeniería de plataformas CAD/CAE/TOPO (SolidDesigner/Alice), kernel geométrico (OpenCascade), modelado paramétrico/por features y serialización de alto rendimiento.
+<p align="center">
+  Plataforma CAD <b>paramétrica</b> de escritorio, centrada en <b>modelado sólido con historial</b>, workbenches extensibles y una arquitectura de nivel comercial — impulsada por <b>OpenCascade (OCCT)</b>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/hananiahhsu/SolidDesigner"><img alt="Repo" src="https://img.shields.io/badge/GitHub-SolidDesigner-181717?logo=github&logoColor=white"></a>
+  <a href="https://github.com/hananiahhsu/SolidDesigner/issues"><img alt="Issues" src="https://img.shields.io/badge/Issues-Tracking-1F6FEB?logo=github&logoColor=white"></a>
+  <a href="https://github.com/hananiahhsu/SolidDesigner/discussions"><img alt="Discussions" src="https://img.shields.io/badge/Discussions-Community-8957E5?logo=github&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white">
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white">
+  <img alt="Qt" src="https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white">
+  <img alt="OpenCascade" src="https://img.shields.io/badge/OCCT-OpenCascade-0B5FFF">
+</p>
 
 <table>
   <tr>
     <td valign="top" width="62%">
 
-## Lenguajes y herramientas
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+## Qué es
 
-## Proyectos destacados
-- **[SolidDesigner](https://github.com/hananiahhsu/SolidDesigner)** — plataforma de escritorio CAD/CAE/TOPO (núcleo)
-- **[OpenCAD](https://github.com/hananiahhsu/OpenCAD)** — exploración de CAD general 2D/3D
-- **[SolidBIM](https://github.com/hananiahhsu/SolidBIM)** / **[SolidSimulation](https://github.com/hananiahhsu/SolidSimulation)** / **[SolidRobot](https://github.com/hananiahhsu/SolidRobot)** — extensiones de dominio
+**SolidDesigner** es mi línea de producto a largo plazo para construir una plataforma CAD de próxima generación:
 
+- **Modelado basado en historial** con árbol de features y regeneración determinista
+- **Workbenches** (Part / Assembly / Sketch / Drawing / Simulation / extensiones BIM) con UX “Ribbon-first”
+- Separación limpia de capas **Model / Representation / Display / Render / UI** para escalar sin colapsar
 
+Si buscas un enfoque práctico y de “software industrial” para un codebase CAD grande (no un demo juguete), este es el proyecto.
+
+## Capacidades clave (alto nivel)
+
+- **Modelado paramétrico por features**: sketch → creación de feature → editar/redefinir → regen
+- **Integración del kernel geométrico**: workflows OCCT B-Rep (TopoDS / BRepBuilderAPI / booleanas / fillet, etc.)
+- **UI profesional**: cambio de workbench, Ribbon, paneles acoplables, layout multi-documento/MDI
+- **Documento y persistencia**: arquitectura de contenedor (p. ej. `.alice`), conceptos de versionado/upgrade pipeline
+- **Extensibilidad**: módulos guiados por interfaces, servicios runtime listos para plugins
+
+> La cobertura exacta de features evoluciona rápido — el repo de SolidDesigner es la fuente de verdad.
+
+## Empieza aquí
+
+- **Repo principal:** https://github.com/hananiahhsu/SolidDesigner  
+- **Secundario:** OpenCAD (experimentos) — https://github.com/hananiahhsu/OpenCAD  
+- **Extensiones de dominio:** SolidBIM / SolidSimulation / SolidRobot (según disponibilidad)
 
 </td>
 <td valign="top" width="38%" align="center">
   <img
-    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/hero.png"
-    width="95%"
-    alt="Hero image"
+    src="assets/hero.png"
+    width="100%" height="260"
+    alt="Vista previa de SolidDesigner"
   />
 </td>
 </tr>
@@ -41,33 +70,63 @@ Ingeniero de software y mecánico. Enfocado en ingeniería de plataformas CAD/CA
 
 ---
 
-## Stats
+## Arquitectura de un vistazo
 
-<p align="left">
-  <img
-    src="https://raw.githubusercontent.com/hananiahhsu/hananiahhsu/main/assets/stats/metrics.svg"
-    width="100%"
-    alt="GitHub Metrics"
-  />
-</p>
+SolidDesigner sigue una arquitectura por capas pensada para evolucionar a gran escala:
 
-<p align="left">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=hananiahhsu&theme=github-compact&hide_border=true&area=false"
-    width="100%"
-    alt="Contribution Graph"
-  />
-</p>
+- **Core/Foundation**: utilidades, matemáticas/algoritmos, sistemas de plugins/eventos
+- **Geometry**: interfaces del kernel + backend OCCT (y futuras alternativas)
+- **Data/Model**: documento, object store, definiciones de features, servicios de regeneración
+- **Representation/Display/Render**: rep graph → display packages → backends de render
+- **UI**: docking Qt/ADS, Ribbon, ciclo de vida de workbenches, enrutamiento de comandos
+
+La estructura se inspira en patrones de CAD maduros (Creo/NX/SolidWorks), manteniéndose pragmática para un codebase abierto.
 
 ---
 
-## Lo que construyo
-- **Arquitectura de plataforma CAD**: framework de documento/sesión/comandos, productos modulares, ecosistema de plugins
-- **Integración de kernel geométrico**: modelado basado en OpenCascade, flujos B-Rep robustos
-- **Modelado paramétrico/por features**: árbol de features, regeneración, restricciones, pipelines con historial
-- **Persistencia y rendimiento**: serialización de alto rendimiento, versionado, pipelines de actualización
+## Dirección del roadmap (público)
+
+- **Madurez del sistema de features**: esquemas más fuertes, redefinición robusta, ediciones de historial, regen trace
+- **TopoNaming/estabilidad de selección**: referencias estables tras editar features
+- **Ensamblajes**: constraints/mates, rendimiento en grandes ensamblajes, representaciones ligeras
+- **Planos**: generación de vistas, hidden line removal, cotas/anotaciones
+- **Interoperabilidad**: pipelines STEP/IGES/STL (a medida que se estabilizan)
+- **Hooks CAE/CAM**: vistas de malla/análisis y flujos orientados a fabricación
+
+---
+
+## Participa
+
+- Reportar bugs / pedir features: https://github.com/hananiahhsu/SolidDesigner/issues  
+- Discusiones de diseño: https://github.com/hananiahhsu/SolidDesigner/discussions  
+
+Si estás construyendo infraestructura CAD/CAE/BIM y quieres colaborar (arquitectura, integración del kernel, UI, storage/versioning), abre un issue o inicia una discusión.
+
+---
+
+<details>
+  <summary><b>Estadísticas de desarrollador (opcional)</b></summary>
+
+  <p>
+    <img
+      src="assets/stats/metrics.svg"
+      width="100%"
+      alt="GitHub Metrics"
+    />
+  </p>
+
+  <p>
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=hananiahhsu&theme=github-compact&hide_border=true&area=false"
+      width="100%"
+      alt="Contribution Graph"
+    />
+  </p>
+</details>
 
 ---
 
 ## Notas
-- Las traducciones pueden quedar desactualizadas. La versión en inglés es la referencia.
+
+- La versión en inglés (README.md) es la referencia; las traducciones pueden ir por detrás.
+- Esta página es un resumen del producto; las instrucciones de build detalladas están en el repo **SolidDesigner**.
