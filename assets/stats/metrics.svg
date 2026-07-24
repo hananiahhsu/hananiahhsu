@@ -55,7 +55,7 @@
     <g transform="translate(0,0)">
       <circle cx="10" cy="12" r="5" fill="#ff4d8d"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Stars Earned</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">112</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">111</text>
     </g>
     <g transform="translate(0,38)">
       <circle cx="10" cy="12" r="5" fill="#3b82f6"/>
