@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — parametrická inženýrská platforma SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — parametrická inženýrská platforma Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Firemní web Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Portfolio produktů Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Repozitář SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Repozitář Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Kontaktovat Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Inženýrský software pro skutečný vývoj výrobků
 
-**Tusyndon Industrial Software** vyvíjí specializované aplikace pro strojní konstrukci, přípravu výroby, předávání technických výstupů a práci s daty BIM. **SolidDesigner** je hlavní otevřená inženýrská platforma: desktopový základ uspořádaný do pracovních prostředí pro parametrické CAD s historií a návrh řízený simulací.
+**Tusyndon Industrial Software** vyvíjí specializované aplikace pro strojní konstrukci, přípravu výroby, předávání technických výstupů a práci s daty BIM. **Tusyndon Designer** je hlavní otevřená inženýrská platforma: desktopový základ uspořádaný do pracovních prostředí pro parametrické CAD s historií a návrh řízený simulací.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Otevřená inženýrská platforma</h3>
-      <p>SolidDesigner spojuje parametrický konstrukční záměr, geometrii B-Rep OCCT, dokumentové transakce, trvalou identitu technických objektů a profesionální desktopová pracovní prostředí.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Prozkoumat SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer spojuje parametrický konstrukční záměr, geometrii B-Rep OCCT, dokumentové transakce, trvalou identitu technických objektů a profesionální desktopová pracovní prostředí.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Prozkoumat Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Systém inženýrských produktů Tusyndon se SolidDesigner a čtyřmi komerčními rodinami" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Systém inženýrských produktů Tusyndon se Tusyndon Designer a čtyřmi komerčními rodinami" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Parametrická inženýrská platforma</h3>
-      <p>SolidDesigner je moderní desktopová aplikace v C++17/20 postavená na znovupoužitelném základu <strong>Alice</strong> a geometrickém jádru <strong>OpenCascade</strong>.</p>
+      <p>Tusyndon Designer je moderní desktopová aplikace v C++17/20 postavená na znovupoužitelném základu <strong>Alice</strong> a geometrickém jádru <strong>OpenCascade</strong>.</p>
       <p>Projekt je v <strong>aktivním vývoji před verzí alfa</strong>. Současný kód vytváří aplikační rámec, základ technických dat, první systémy prvků a vazeb, transakčně uvědomělé příkazy a rozšiřitelnou strukturu pracovních prostředí.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Sestavit ve Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="Současné domovské pracovní prostředí SolidDesigner" />
-      <br /><sub>Současné SolidDesigner / Breptera Home Workbench · aktivní vývoj před verzí alfa</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Současné domovské pracovní prostředí Tusyndon Designer" />
+      <br /><sub>Současné Tusyndon Designer Home Workbench · aktivní vývoj před verzí alfa</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Strojní konstrukce · příprava výroby · technické výstupy · data BIM</sub><br /><br />
   <a href="https://www.tusyndon.com/">Společnost</a> ·
   <a href="https://www.tusyndon.com/products">Produkty</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Veřejná Wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

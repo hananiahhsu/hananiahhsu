@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner প্যারামেট্রিক প্রকৌশল প্ল্যাটফর্ম" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer প্যারামেট্রিক প্রকৌশল প্ল্যাটফর্ম" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon কোম্পানি ওয়েবসাইট" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon পণ্যসমূহ" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner রিপোজিটরি" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer রিপোজিটরি" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Tusyndon-এর সঙ্গে যোগাযোগ" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## বাস্তব পণ্য উন্নয়নের জন্য প্রকৌশল সফটওয়্যার
 
-**Tusyndon Industrial Software** যান্ত্রিক নকশা, উৎপাদন প্রস্তুতি, প্রকৌশল সরবরাহ এবং BIM ডেটা কর্মপ্রবাহের জন্য বিশেষায়িত অ্যাপ্লিকেশন তৈরি করে। **SolidDesigner** হলো প্রধান উন্মুক্ত প্রকৌশল প্ল্যাটফর্ম—ইতিহাস-ভিত্তিক প্যারামেট্রিক CAD এবং সিমুলেশন-নির্দেশিত নকশার জন্য ডেস্কটপ ওয়ার্কবেঞ্চ ভিত্তি।
+**Tusyndon Industrial Software** যান্ত্রিক নকশা, উৎপাদন প্রস্তুতি, প্রকৌশল সরবরাহ এবং BIM ডেটা কর্মপ্রবাহের জন্য বিশেষায়িত অ্যাপ্লিকেশন তৈরি করে। **Tusyndon Designer** হলো প্রধান উন্মুক্ত প্রকৌশল প্ল্যাটফর্ম—ইতিহাস-ভিত্তিক প্যারামেট্রিক CAD এবং সিমুলেশন-নির্দেশিত নকশার জন্য ডেস্কটপ ওয়ার্কবেঞ্চ ভিত্তি।
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>উন্মুক্ত প্রকৌশল প্ল্যাটফর্ম</h3>
-      <p>SolidDesigner প্যারামেট্রিক নকশার উদ্দেশ্য, OCCT B-Rep জ্যামিতি, ডকুমেন্ট ট্রানজ্যাকশন, স্থায়ী প্রকৌশল পরিচয় এবং পেশাদার ডেস্কটপ ওয়ার্কবেঞ্চ একত্রিত করে।</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>SolidDesigner দেখুন →</strong></a></p>
+      <p>Tusyndon Designer প্যারামেট্রিক নকশার উদ্দেশ্য, OCCT B-Rep জ্যামিতি, ডকুমেন্ট ট্রানজ্যাকশন, স্থায়ী প্রকৌশল পরিচয় এবং পেশাদার ডেস্কটপ ওয়ার্কবেঞ্চ একত্রিত করে।</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Tusyndon Designer দেখুন →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="SolidDesigner এবং চারটি বাণিজ্যিক পণ্য পরিবারসহ Tusyndon প্রকৌশল সফটওয়্যার ব্যবস্থা" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon Designer এবং চারটি বাণিজ্যিক পণ্য পরিবারসহ Tusyndon প্রকৌশল সফটওয়্যার ব্যবস্থা" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>প্যারামেট্রিক প্রকৌশল প্ল্যাটফর্ম</h3>
-      <p>SolidDesigner একটি আধুনিক C++17/20 ডেস্কটপ অ্যাপ্লিকেশন, যা পুনর্ব্যবহারযোগ্য <strong>Alice</strong> ভিত্তি এবং <strong>OpenCascade</strong> জ্যামিতি কার্নেলের ওপর নির্মিত।</p>
+      <p>Tusyndon Designer একটি আধুনিক C++17/20 ডেস্কটপ অ্যাপ্লিকেশন, যা পুনর্ব্যবহারযোগ্য <strong>Alice</strong> ভিত্তি এবং <strong>OpenCascade</strong> জ্যামিতি কার্নেলের ওপর নির্মিত।</p>
       <p>প্রকল্পটি <strong>সক্রিয় প্রি-আলফা উন্নয়নে</strong> রয়েছে। বর্তমান কোড অ্যাপ্লিকেশন শেল, প্রকৌশল ডেটা ভিত্তি, প্রাথমিক ফিচার ও কনস্ট্রেইন্ট ব্যবস্থা, ট্রানজ্যাকশন-সচেতন কমান্ড এবং সম্প্রসারণযোগ্য ওয়ার্কবেঞ্চ কাঠামো স্থাপন করছে।</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Visual Studio 2022 দিয়ে বিল্ড করুন →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="বর্তমান SolidDesigner Home Workbench" />
-      <br /><sub>বর্তমান SolidDesigner / Breptera Home Workbench · সক্রিয় প্রি-আলফা</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="বর্তমান Tusyndon Designer Home Workbench" />
+      <br /><sub>বর্তমান Tusyndon Designer Home Workbench · সক্রিয় প্রি-আলফা</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>যান্ত্রিক নকশা · উৎপাদন প্রস্তুতি · প্রকৌশল সরবরাহ · BIM ডেটা</sub><br /><br />
   <a href="https://www.tusyndon.com/">কোম্পানি</a> ·
   <a href="https://www.tusyndon.com/products">পণ্য</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">পাবলিক উইকি</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

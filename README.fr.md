@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — plateforme d’ingénierie paramétrique SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — plateforme d’ingénierie paramétrique Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Site de Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Gamme de produits Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Dépôt SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Dépôt Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Contacter Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Des logiciels d’ingénierie conçus pour des produits réels
 
-**Tusyndon Industrial Software** développe des applications spécialisées pour la conception mécanique, la préparation de la fabrication, la livraison des études et les flux de données BIM. **SolidDesigner** est la plateforme d’ingénierie ouverte phare : une base de bureau organisée en ateliers pour la CAO paramétrique à historique et la conception pilotée par la simulation.
+**Tusyndon Industrial Software** développe des applications spécialisées pour la conception mécanique, la préparation de la fabrication, la livraison des études et les flux de données BIM. **Tusyndon Designer** est la plateforme d’ingénierie ouverte phare : une base de bureau organisée en ateliers pour la CAO paramétrique à historique et la conception pilotée par la simulation.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Plateforme d’ingénierie ouverte</h3>
-      <p>SolidDesigner réunit l’intention de conception paramétrique, la géométrie B-Rep OCCT, les transactions documentaires, l’identité d’ingénierie persistante et des ateliers de bureau professionnels.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Découvrir SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer réunit l’intention de conception paramétrique, la géométrie B-Rep OCCT, les transactions documentaires, l’identité d’ingénierie persistante et des ateliers de bureau professionnels.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Découvrir Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Système de produits logiciels d’ingénierie Tusyndon avec SolidDesigner et quatre familles commerciales" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Système de produits logiciels d’ingénierie Tusyndon avec Tusyndon Designer et quatre familles commerciales" />
   </a>
 </p>
 
@@ -75,20 +75,20 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Plateforme d’ingénierie paramétrique</h3>
-      <p>SolidDesigner est une application de bureau moderne en C++17/20, construite sur la fondation réutilisable <strong>Alice</strong> et le noyau géométrique <strong>OpenCascade</strong>.</p>
+      <p>Tusyndon Designer est une application de bureau moderne en C++17/20, construite sur la fondation réutilisable <strong>Alice</strong> et le noyau géométrique <strong>OpenCascade</strong>.</p>
       <p>Le projet est en <strong>développement pré-alpha actif</strong>. Le code actuel établit l’enveloppe applicative, la base des données d’ingénierie, les premiers systèmes de fonctions et de contraintes, les commandes transactionnelles et une organisation extensible en ateliers.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Compiler avec Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="Atelier d’accueil actuel de SolidDesigner" />
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Atelier d’accueil actuel de Tusyndon Designer" />
       <br />
-      <sub>Atelier d’accueil actuel de SolidDesigner / Breptera · pré-alpha actif</sub>
+      <sub>Atelier d’accueil actuel de Tusyndon Designer · pré-alpha actif</sub>
     </td>
   </tr>
 </table>
@@ -151,7 +151,7 @@
   <sub>Conception mécanique · préparation de la fabrication · livraison des études · données BIM</sub><br /><br />
   <a href="https://www.tusyndon.com/">Entreprise</a> ·
   <a href="https://www.tusyndon.com/products">Produits</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Wiki public</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

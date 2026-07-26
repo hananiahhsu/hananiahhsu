@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner parametric engineering platform" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer parametric engineering platform" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon company website" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon product portfolio" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner repository" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer repository" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Contact Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Engineering software for real product work
 
-**Tusyndon Industrial Software** develops focused applications for mechanical design, manufacturing preparation, engineering delivery, and BIM data workflows. **SolidDesigner** is the flagship open engineering platform: a desktop, workbench-oriented foundation for history-based parametric CAD and simulation-driven design.
+**Tusyndon Industrial Software** develops focused applications for mechanical design, manufacturing preparation, engineering delivery, and BIM data workflows. **Tusyndon Designer** is the flagship open engineering platform: a desktop, workbench-oriented foundation for history-based parametric CAD and simulation-driven design.
 
 <table>
   <tr>
@@ -39,18 +39,18 @@
     <td width="50%" valign="top">
       <h3>Open engineering platform</h3>
       <p>
-        SolidDesigner combines parametric design intent, OCCT B-Rep geometry,
+        Tusyndon Designer combines parametric design intent, OCCT B-Rep geometry,
         document transactions, persistent engineering identity, and professional
         desktop workbenches.
       </p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Explore SolidDesigner →</strong></a></p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Explore Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon engineering software product system with SolidDesigner and four commercial product families" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon engineering software product system with Tusyndon Designer and four commercial product families" />
   </a>
 </p>
 
@@ -83,14 +83,14 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Parametric engineering platform</h3>
       <p>
-        SolidDesigner is a modern C++17/20 desktop application built on the reusable
+        Tusyndon Designer is a modern C++17/20 desktop application built on the reusable
         <strong>Alice</strong> foundation and the <strong>OpenCascade</strong> geometry kernel.
       </p>
       <p>
@@ -104,9 +104,9 @@
       </p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="Current SolidDesigner Home Workbench" />
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Current Tusyndon Designer Home Workbench" />
       <br />
-      <sub>Current SolidDesigner / Breptera Home Workbench · active pre-alpha</sub>
+      <sub>Current Tusyndon Designer Home Workbench · active pre-alpha</sub>
     </td>
   </tr>
 </table>
@@ -169,7 +169,7 @@
   <sub>Mechanical design · manufacturing preparation · engineering delivery · BIM data</sub><br /><br />
   <a href="https://www.tusyndon.com/">Company</a> ·
   <a href="https://www.tusyndon.com/products">Products</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Public wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

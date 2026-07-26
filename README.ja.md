@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner パラメトリックエンジニアリングプラットフォーム" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer パラメトリックエンジニアリングプラットフォーム" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon 企業サイト" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon 製品ポートフォリオ" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner リポジトリ" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer リポジトリ" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Tusyndon へのお問い合わせ" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## 実製品開発のためのエンジニアリングソフトウェア
 
-**Tusyndon Industrial Software** は、機械設計、製造準備、エンジニアリング成果物の提供、BIM データワークフローに特化したアプリケーションを開発しています。**SolidDesigner** は、履歴ベースのパラメトリック CAD とシミュレーション駆動設計を支える、デスクトップ型・ワークベンチ指向のオープンエンジニアリングプラットフォームです。
+**Tusyndon Industrial Software** は、機械設計、製造準備、エンジニアリング成果物の提供、BIM データワークフローに特化したアプリケーションを開発しています。**Tusyndon Designer** は、履歴ベースのパラメトリック CAD とシミュレーション駆動設計を支える、デスクトップ型・ワークベンチ指向のオープンエンジニアリングプラットフォームです。
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>オープンエンジニアリングプラットフォーム</h3>
-      <p>SolidDesigner は、パラメトリックな設計意図、OCCT B-Rep ジオメトリ、ドキュメントトランザクション、永続的なエンジニアリング識別子、プロフェッショナル向けデスクトップワークベンチを統合します。</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>SolidDesigner を見る →</strong></a></p>
+      <p>Tusyndon Designer は、パラメトリックな設計意図、OCCT B-Rep ジオメトリ、ドキュメントトランザクション、永続的なエンジニアリング識別子、プロフェッショナル向けデスクトップワークベンチを統合します。</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Tusyndon Designer を見る →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="SolidDesigner と 4 つの商用製品群で構成される Tusyndon エンジニアリングソフトウェア製品体系" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon Designer と 4 つの商用製品群で構成される Tusyndon エンジニアリングソフトウェア製品体系" />
   </a>
 </p>
 
@@ -75,20 +75,20 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>パラメトリックエンジニアリングプラットフォーム</h3>
-      <p>SolidDesigner は、再利用可能な <strong>Alice</strong> 基盤と <strong>OpenCascade</strong> ジオメトリカーネル上に構築された、最新の C++17/20 デスクトップアプリケーションです。</p>
+      <p>Tusyndon Designer は、再利用可能な <strong>Alice</strong> 基盤と <strong>OpenCascade</strong> ジオメトリカーネル上に構築された、最新の C++17/20 デスクトップアプリケーションです。</p>
       <p>現在は<strong>活発なプレアルファ開発段階</strong>にあります。アプリケーションシェル、エンジニアリングデータ基盤、初期のフィーチャーおよび拘束システム、トランザクション対応コマンド、拡張可能なワークベンチ構成を整備しています。</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Visual Studio 2022 でビルド →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="現在の SolidDesigner Home Workbench" />
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="現在の Tusyndon Designer Home Workbench" />
       <br />
-      <sub>現在の SolidDesigner / Breptera Home Workbench · 活発なプレアルファ開発</sub>
+      <sub>現在の Tusyndon Designer Home Workbench · 活発なプレアルファ開発</sub>
     </td>
   </tr>
 </table>
@@ -151,7 +151,7 @@
   <sub>機械設計 · 製造準備 · エンジニアリング成果物 · BIM データ</sub><br /><br />
   <a href="https://www.tusyndon.com/">会社情報</a> ·
   <a href="https://www.tusyndon.com/products">製品</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">公開 Wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

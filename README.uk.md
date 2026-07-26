@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — платформа параметричного проєктування SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — платформа параметричного проєктування Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Сайт компанії Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Продукти Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Репозиторій SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Репозиторій Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Зв’язатися з Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Інженерне програмне забезпечення для реальних виробів
 
-**Tusyndon Industrial Software** розробляє спеціалізовані застосунки для механічного проєктування, підготовки виробництва, випуску інженерної документації та роботи з BIM-даними. **SolidDesigner** — провідна відкрита інженерна платформа: настільне середовище з робочими модулями для параметричного CAD на основі історії побудови та проєктування із застосуванням моделювання.
+**Tusyndon Industrial Software** розробляє спеціалізовані застосунки для механічного проєктування, підготовки виробництва, випуску інженерної документації та роботи з BIM-даними. **Tusyndon Designer** — провідна відкрита інженерна платформа: настільне середовище з робочими модулями для параметричного CAD на основі історії побудови та проєктування із застосуванням моделювання.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Відкрита інженерна платформа</h3>
-      <p>SolidDesigner поєднує параметричний задум, B-Rep-геометрію OCCT, транзакції документів, сталу ідентифікацію інженерних об’єктів і професійні робочі модулі.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Відкрити SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer поєднує параметричний задум, B-Rep-геометрію OCCT, транзакції документів, сталу ідентифікацію інженерних об’єктів і професійні робочі модулі.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Відкрити Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Система інженерних продуктів Tusyndon: SolidDesigner і чотири комерційні сімейства" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Система інженерних продуктів Tusyndon: Tusyndon Designer і чотири комерційні сімейства" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Платформа параметричного проєктування</h3>
-      <p>SolidDesigner — сучасний настільний застосунок на C++17/20, побудований на повторно використовуваній основі <strong>Alice</strong> і геометричному ядрі <strong>OpenCascade</strong>.</p>
+      <p>Tusyndon Designer — сучасний настільний застосунок на C++17/20, побудований на повторно використовуваній основі <strong>Alice</strong> і геометричному ядрі <strong>OpenCascade</strong>.</p>
       <p>Проєкт перебуває на стадії <strong>активної pre-alpha-розробки</strong>. Поточна кодова база формує оболонку застосунку, основу інженерних даних, початкові системи операцій і обмежень, транзакційні команди та розширювану структуру робочих модулів.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Збирання у Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="Поточний домашній робочий модуль SolidDesigner" />
-      <br /><sub>Поточний SolidDesigner / Breptera Home Workbench · активна pre-alpha-розробка</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Поточний домашній робочий модуль Tusyndon Designer" />
+      <br /><sub>Поточний Tusyndon Designer Home Workbench · активна pre-alpha-розробка</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Механічне проєктування · підготовка виробництва · випуск документації · BIM-дані</sub><br /><br />
   <a href="https://www.tusyndon.com/">Компанія</a> ·
   <a href="https://www.tusyndon.com/products">Продукти</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Публічна Wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

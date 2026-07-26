@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — nền tảng kỹ thuật tham số SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — nền tảng kỹ thuật tham số Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Trang công ty Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Danh mục sản phẩm Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Kho mã SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Kho mã Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Liên hệ Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Phần mềm kỹ thuật cho công việc phát triển sản phẩm thực tế
 
-**Tusyndon Industrial Software** phát triển các ứng dụng chuyên dụng cho thiết kế cơ khí, chuẩn bị sản xuất, bàn giao kỹ thuật và quy trình dữ liệu BIM. **SolidDesigner** là nền tảng kỹ thuật mở chủ lực: nền tảng máy tính để bàn theo mô hình bàn làm việc dành cho CAD tham số dựa trên lịch sử và thiết kế dẫn dắt bởi mô phỏng.
+**Tusyndon Industrial Software** phát triển các ứng dụng chuyên dụng cho thiết kế cơ khí, chuẩn bị sản xuất, bàn giao kỹ thuật và quy trình dữ liệu BIM. **Tusyndon Designer** là nền tảng kỹ thuật mở chủ lực: nền tảng máy tính để bàn theo mô hình bàn làm việc dành cho CAD tham số dựa trên lịch sử và thiết kế dẫn dắt bởi mô phỏng.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Nền tảng kỹ thuật mở</h3>
-      <p>SolidDesigner kết hợp ý đồ thiết kế tham số, hình học B-Rep OCCT, giao dịch tài liệu, định danh kỹ thuật bền vững và các bàn làm việc chuyên nghiệp.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Khám phá SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer kết hợp ý đồ thiết kế tham số, hình học B-Rep OCCT, giao dịch tài liệu, định danh kỹ thuật bền vững và các bàn làm việc chuyên nghiệp.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Khám phá Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Hệ sản phẩm phần mềm kỹ thuật Tusyndon gồm SolidDesigner và bốn nhóm sản phẩm thương mại" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Hệ sản phẩm phần mềm kỹ thuật Tusyndon gồm Tusyndon Designer và bốn nhóm sản phẩm thương mại" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Nền tảng kỹ thuật tham số</h3>
-      <p>SolidDesigner là ứng dụng máy tính để bàn C++17/20 hiện đại, xây dựng trên nền tảng tái sử dụng <strong>Alice</strong> và nhân hình học <strong>OpenCascade</strong>.</p>
+      <p>Tusyndon Designer là ứng dụng máy tính để bàn C++17/20 hiện đại, xây dựng trên nền tảng tái sử dụng <strong>Alice</strong> và nhân hình học <strong>OpenCascade</strong>.</p>
       <p>Dự án đang trong giai đoạn <strong>tiền alpha được phát triển tích cực</strong>. Mã nguồn hiện tại thiết lập khung ứng dụng, nền dữ liệu kỹ thuật, hệ thống tính năng và ràng buộc ban đầu, lệnh nhận biết giao dịch và cấu trúc bàn làm việc có thể mở rộng.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Biên dịch bằng Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="Bàn làm việc Trang chủ hiện tại của SolidDesigner" />
-      <br /><sub>SolidDesigner / Breptera Home Workbench hiện tại · tiền alpha đang phát triển</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Bàn làm việc Trang chủ hiện tại của Tusyndon Designer" />
+      <br /><sub>Tusyndon Designer Home Workbench hiện tại · tiền alpha đang phát triển</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Thiết kế cơ khí · chuẩn bị sản xuất · bàn giao kỹ thuật · dữ liệu BIM</sub><br /><br />
   <a href="https://www.tusyndon.com/">Công ty</a> ·
   <a href="https://www.tusyndon.com/products">Sản phẩm</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Wiki công khai</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

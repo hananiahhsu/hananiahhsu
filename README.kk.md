@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner параметрлік инженерлік платформасы" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer параметрлік инженерлік платформасы" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon компаниясының сайты" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon өнімдер жиынтығы" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner репозиторийі" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer репозиторийі" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Tusyndon компаниясымен байланысу" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Нақты өнім жасауға арналған инженерлік бағдарламалық жасақтама
 
-**Tusyndon Industrial Software** механикалық жобалау, өндірісті дайындау, инженерлік құжаттаманы шығару және BIM деректерінің жұмыс үдерістеріне арналған мамандандырылған қолданбаларды әзірлейді. **SolidDesigner** — тарихқа негізделген параметрлік CAD пен модельдеуге сүйенген жобалауға арналған, жұмыс модульдері бар жетекші ашық инженерлік платформа.
+**Tusyndon Industrial Software** механикалық жобалау, өндірісті дайындау, инженерлік құжаттаманы шығару және BIM деректерінің жұмыс үдерістеріне арналған мамандандырылған қолданбаларды әзірлейді. **Tusyndon Designer** — тарихқа негізделген параметрлік CAD пен модельдеуге сүйенген жобалауға арналған, жұмыс модульдері бар жетекші ашық инженерлік платформа.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Ашық инженерлік платформа</h3>
-      <p>SolidDesigner параметрлік жобалау ниетін, OCCT B-Rep геометриясын, құжат транзакцияларын, тұрақты инженерлік сәйкестендіруді және кәсіби жұмыс модульдерін біріктіреді.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>SolidDesigner платформасын қарау →</strong></a></p>
+      <p>Tusyndon Designer параметрлік жобалау ниетін, OCCT B-Rep геометриясын, құжат транзакцияларын, тұрақты инженерлік сәйкестендіруді және кәсіби жұмыс модульдерін біріктіреді.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Tusyndon Designer платформасын қарау →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="SolidDesigner және төрт коммерциялық өнім тобынан тұратын Tusyndon инженерлік өнімдер жүйесі" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon Designer және төрт коммерциялық өнім тобынан тұратын Tusyndon инженерлік өнімдер жүйесі" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Параметрлік инженерлік платформа</h3>
-      <p>SolidDesigner — қайта пайдаланылатын <strong>Alice</strong> негізі мен <strong>OpenCascade</strong> геометриялық ядросында құрылған заманауи C++17/20 жұмыс үстелі қолданбасы.</p>
+      <p>Tusyndon Designer — қайта пайдаланылатын <strong>Alice</strong> негізі мен <strong>OpenCascade</strong> геометриялық ядросында құрылған заманауи C++17/20 жұмыс үстелі қолданбасы.</p>
       <p>Жоба <strong>белсенді pre-alpha әзірлеу сатысында</strong>. Қазіргі код қолданба қаңқасын, инженерлік деректер негізін, бастапқы операциялар мен шектеулер жүйесін, транзакцияларды қолдайтын командаларды және кеңейтілетін жұмыс модульдерін қалыптастырады.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Visual Studio 2022 арқылы құрастыру →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="SolidDesigner платформасының қазіргі Home Workbench модулі" />
-      <br /><sub>Қазіргі SolidDesigner / Breptera Home Workbench · белсенді pre-alpha</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Tusyndon Designer платформасының қазіргі Home Workbench модулі" />
+      <br /><sub>Қазіргі Tusyndon Designer Home Workbench · белсенді pre-alpha</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Механикалық жобалау · өндірісті дайындау · инженерлік құжаттаманы шығару · BIM деректері</sub><br /><br />
   <a href="https://www.tusyndon.com/">Компания</a> ·
   <a href="https://www.tusyndon.com/products">Өнімдер</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Ашық Wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="图随形动工业软件——SolidDesigner 参数化工程平台" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="图随形动工业软件——Tusyndon Designer 参数化工程平台" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="图随形动公司官网" src="https://img.shields.io/badge/图随形动-公司官网-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="图随形动产品矩阵" src="https://img.shields.io/badge/工业软件-产品矩阵-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner 仓库" src="https://img.shields.io/badge/开放平台-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer 仓库" src="https://img.shields.io/badge/开放平台-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="联系图随形动" src="https://img.shields.io/badge/联系我们-预约演示-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## 面向真实产品研发流程的工业软件
 
-**图随形动工业软件**面向机械设计、制造准备、工程交付与 BIM 数据流程研发专业应用。**SolidDesigner** 是旗舰开放工程平台，为历史树参数化 CAD 与仿真驱动设计提供桌面端、工作台式的软件基础。
+**图随形动工业软件**面向机械设计、制造准备、工程交付与 BIM 数据流程研发专业应用。**Tusyndon Designer** 是旗舰开放工程平台，为历史树参数化 CAD 与仿真驱动设计提供桌面端、工作台式的软件基础。
 
 <table>
   <tr>
@@ -38,17 +38,17 @@
     <td width="50%" valign="top">
       <h3>开放工程平台</h3>
       <p>
-        SolidDesigner 将参数化设计意图、OCCT 边界表示几何、文档事务、
+        Tusyndon Designer 将参数化设计意图、OCCT 边界表示几何、文档事务、
         持久工程标识与专业桌面工作台组织在一致的软件系统中。
       </p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>查看 SolidDesigner →</strong></a></p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>查看 Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="图随形动工程软件产品体系，包含 SolidDesigner 与四个商业产品族" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="图随形动工程软件产品体系，包含 Tusyndon Designer 与四个商业产品族" />
   </a>
 </p>
 
@@ -81,14 +81,14 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>参数化工程平台</h3>
       <p>
-        SolidDesigner 是基于可复用 <strong>Alice</strong> 基础平台与
+        Tusyndon Designer 是基于可复用 <strong>Alice</strong> 基础平台与
         <strong>OpenCascade</strong> 几何内核构建的现代 C++17/20 桌面应用。
       </p>
       <p>
@@ -100,9 +100,9 @@
       </p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="当前 SolidDesigner 主工作台" />
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="当前 Tusyndon Designer 主工作台" />
       <br />
-      <sub>当前 SolidDesigner / Breptera 主工作台 · 活跃开发预览阶段</sub>
+      <sub>当前 Tusyndon Designer 主工作台 · 活跃开发预览阶段</sub>
     </td>
   </tr>
 </table>
@@ -165,7 +165,7 @@
   <sub>机械设计 · 制造准备 · 工程交付 · BIM 数据</sub><br /><br />
   <a href="https://www.tusyndon.com/">公司</a> ·
   <a href="https://www.tusyndon.com/products">产品</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">公开知识库</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — แพลตฟอร์มวิศวกรรมพาราเมตริก SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — แพลตฟอร์มวิศวกรรมพาราเมตริก Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="เว็บไซต์บริษัท Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="กลุ่มผลิตภัณฑ์ Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="คลัง SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="คลัง Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="ติดต่อ Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## ซอฟต์แวร์วิศวกรรมสำหรับการพัฒนาผลิตภัณฑ์จริง
 
-**Tusyndon Industrial Software** พัฒนาแอปพลิเคชันเฉพาะทางสำหรับการออกแบบเครื่องกล การเตรียมการผลิต การส่งมอบงานวิศวกรรม และเวิร์กโฟลว์ข้อมูล BIM ส่วน **SolidDesigner** คือแพลตฟอร์มวิศวกรรมแบบเปิดหลัก ซึ่งเป็นฐานเดสก์ท็อปแบบเวิร์กเบนช์สำหรับ CAD พาราเมตริกที่อิงประวัติและการออกแบบที่ขับเคลื่อนด้วยการจำลอง
+**Tusyndon Industrial Software** พัฒนาแอปพลิเคชันเฉพาะทางสำหรับการออกแบบเครื่องกล การเตรียมการผลิต การส่งมอบงานวิศวกรรม และเวิร์กโฟลว์ข้อมูล BIM ส่วน **Tusyndon Designer** คือแพลตฟอร์มวิศวกรรมแบบเปิดหลัก ซึ่งเป็นฐานเดสก์ท็อปแบบเวิร์กเบนช์สำหรับ CAD พาราเมตริกที่อิงประวัติและการออกแบบที่ขับเคลื่อนด้วยการจำลอง
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>แพลตฟอร์มวิศวกรรมแบบเปิด</h3>
-      <p>SolidDesigner รวมเจตนาการออกแบบพาราเมตริก เรขาคณิต B-Rep ของ OCCT ธุรกรรมเอกสาร อัตลักษณ์วัตถุวิศวกรรมแบบคงอยู่ และเวิร์กเบนช์เดสก์ท็อประดับมืออาชีพ</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>สำรวจ SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer รวมเจตนาการออกแบบพาราเมตริก เรขาคณิต B-Rep ของ OCCT ธุรกรรมเอกสาร อัตลักษณ์วัตถุวิศวกรรมแบบคงอยู่ และเวิร์กเบนช์เดสก์ท็อประดับมืออาชีพ</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>สำรวจ Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="ระบบผลิตภัณฑ์ซอฟต์แวร์วิศวกรรม Tusyndon พร้อม SolidDesigner และสี่กลุ่มผลิตภัณฑ์เชิงพาณิชย์" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="ระบบผลิตภัณฑ์ซอฟต์แวร์วิศวกรรม Tusyndon พร้อม Tusyndon Designer และสี่กลุ่มผลิตภัณฑ์เชิงพาณิชย์" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>แพลตฟอร์มวิศวกรรมพาราเมตริก</h3>
-      <p>SolidDesigner เป็นแอปพลิเคชันเดสก์ท็อป C++17/20 สมัยใหม่ สร้างบนรากฐาน <strong>Alice</strong> ที่นำกลับมาใช้ได้และเคอร์เนลเรขาคณิต <strong>OpenCascade</strong></p>
+      <p>Tusyndon Designer เป็นแอปพลิเคชันเดสก์ท็อป C++17/20 สมัยใหม่ สร้างบนรากฐาน <strong>Alice</strong> ที่นำกลับมาใช้ได้และเคอร์เนลเรขาคณิต <strong>OpenCascade</strong></p>
       <p>โครงการอยู่ในช่วง <strong>พรีอัลฟาที่กำลังพัฒนาอย่างต่อเนื่อง</strong> โค้ดปัจจุบันสร้างโครงแอปพลิเคชัน ฐานข้อมูลวิศวกรรม ระบบฟีเจอร์และข้อกำหนดระยะแรก คำสั่งที่รองรับธุรกรรม และโครงสร้างเวิร์กเบนช์ที่ขยายได้</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>บิลด์ด้วย Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="SolidDesigner Home Workbench ปัจจุบัน" />
-      <br /><sub>SolidDesigner / Breptera Home Workbench ปัจจุบัน · พรีอัลฟาที่กำลังพัฒนา</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Tusyndon Designer Home Workbench ปัจจุบัน" />
+      <br /><sub>Tusyndon Designer Home Workbench ปัจจุบัน · พรีอัลฟาที่กำลังพัฒนา</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>การออกแบบเครื่องกล · การเตรียมการผลิต · การส่งมอบงานวิศวกรรม · ข้อมูล BIM</sub><br /><br />
   <a href="https://www.tusyndon.com/">บริษัท</a> ·
   <a href="https://www.tusyndon.com/products">ผลิตภัณฑ์</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">วิกิสาธารณะ</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

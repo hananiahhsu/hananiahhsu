@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title description">
   <title id="title">Tusyndon engineering software product system</title>
-  <desc id="description">The product system presents SolidDesigner alongside Tusyndon product families for drawing automation, model intelligence, manufacturing engineering, and BIM innovation.</desc>
+  <desc id="description">The product system presents Tusyndon Designer alongside Tusyndon product families for drawing automation, model intelligence, manufacturing engineering, and BIM innovation.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
@@ -38,7 +38,7 @@
       <rect x="64" y="162" width="430" height="480" rx="28" fill="#ffffff" stroke="#86b0da" stroke-width="2"/>
       <rect x="64" y="162" width="430" height="12" rx="6" fill="url(#platform)"/>
       <text x="98" y="222" fill="#0b63ce" font-size="14" font-weight="750" letter-spacing="2.5">FLAGSHIP OPEN PLATFORM</text>
-      <text x="96" y="291" fill="#082b68" font-size="47" font-weight="780" letter-spacing="-1">SolidDesigner</text>
+      <text x="96" y="291" fill="#082b68" font-size="39" font-weight="780" letter-spacing="-0.8">Tusyndon Designer</text>
       <text x="98" y="329" fill="#008d87" font-size="16" font-weight="750" letter-spacing="2">PARAMETRIC CAD · CAE-READY</text>
       <text x="98" y="371" fill="#4d627b" font-size="18">History-based modeling with a reusable</text>
       <text x="98" y="399" fill="#4d627b" font-size="18">engineering foundation and professional</text>

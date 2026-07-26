@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — platform rekayasa parametrik SolidDesigner" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — platform rekayasa parametrik Tusyndon Designer" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Situs perusahaan Tusyndon" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Portofolio produk Tusyndon" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Repositori SolidDesigner" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Repositori Tusyndon Designer" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Hubungi Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Perangkat lunak rekayasa untuk pengembangan produk nyata
 
-**Tusyndon Industrial Software** mengembangkan aplikasi khusus untuk desain mekanis, persiapan manufaktur, penyerahan rekayasa, dan alur data BIM. **SolidDesigner** adalah platform rekayasa terbuka unggulan: fondasi desktop berorientasi meja kerja untuk CAD parametrik berbasis riwayat dan desain yang dipandu simulasi.
+**Tusyndon Industrial Software** mengembangkan aplikasi khusus untuk desain mekanis, persiapan manufaktur, penyerahan rekayasa, dan alur data BIM. **Tusyndon Designer** adalah platform rekayasa terbuka unggulan: fondasi desktop berorientasi meja kerja untuk CAD parametrik berbasis riwayat dan desain yang dipandu simulasi.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Platform rekayasa terbuka</h3>
-      <p>SolidDesigner menyatukan maksud desain parametrik, geometri B-Rep OCCT, transaksi dokumen, identitas rekayasa persisten, dan meja kerja desktop profesional.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Jelajahi SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer menyatukan maksud desain parametrik, geometri B-Rep OCCT, transaksi dokumen, identitas rekayasa persisten, dan meja kerja desktop profesional.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Jelajahi Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Sistem produk perangkat lunak rekayasa Tusyndon dengan SolidDesigner dan empat keluarga komersial" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Sistem produk perangkat lunak rekayasa Tusyndon dengan Tusyndon Designer dan empat keluarga komersial" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Platform rekayasa parametrik</h3>
-      <p>SolidDesigner adalah aplikasi desktop C++17/20 modern yang dibangun di atas fondasi <strong>Alice</strong> yang dapat digunakan ulang dan kernel geometri <strong>OpenCascade</strong>.</p>
+      <p>Tusyndon Designer adalah aplikasi desktop C++17/20 modern yang dibangun di atas fondasi <strong>Alice</strong> yang dapat digunakan ulang dan kernel geometri <strong>OpenCascade</strong>.</p>
       <p>Proyek berada dalam <strong>pengembangan pra-alfa aktif</strong>. Basis kode saat ini membangun kerangka aplikasi, fondasi data rekayasa, sistem fitur dan batasan awal, perintah yang memahami transaksi, serta struktur meja kerja yang dapat diperluas.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Bangun dengan Visual Studio 2022 →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="SolidDesigner Home Workbench saat ini" />
-      <br /><sub>SolidDesigner / Breptera Home Workbench saat ini · pra-alfa aktif</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Tusyndon Designer Home Workbench saat ini" />
+      <br /><sub>Tusyndon Designer Home Workbench saat ini · pra-alfa aktif</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Desain mekanis · persiapan manufaktur · penyerahan rekayasa · data BIM</sub><br /><br />
   <a href="https://www.tusyndon.com/">Perusahaan</a> ·
   <a href="https://www.tusyndon.com/products">Produk</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Wiki publik</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

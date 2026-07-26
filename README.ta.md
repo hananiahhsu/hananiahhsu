@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner அளவுரு பொறியியல் தளம்" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer அளவுரு பொறியியல் தளம்" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon நிறுவன இணையதளம்" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon தயாரிப்புகள்" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner களஞ்சியம்" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer களஞ்சியம்" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Tusyndon தொடர்பு" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## உண்மையான தயாரிப்பு மேம்பாட்டிற்கான பொறியியல் மென்பொருள்
 
-**Tusyndon Industrial Software** இயந்திர வடிவமைப்பு, உற்பத்தித் தயாரிப்பு, பொறியியல் வழங்கல் மற்றும் BIM தரவு பணிப்பாய்வுகளுக்கான சிறப்பு பயன்பாடுகளை உருவாக்குகிறது. **SolidDesigner** முதன்மையான திறந்த பொறியியல் தளம்—வரலாறு சார்ந்த அளவுரு CAD மற்றும் உருவகப்படுத்தல் வழிநடத்தும் வடிவமைப்பிற்கான டெஸ்க்டாப் பணிமனை அடித்தளம்.
+**Tusyndon Industrial Software** இயந்திர வடிவமைப்பு, உற்பத்தித் தயாரிப்பு, பொறியியல் வழங்கல் மற்றும் BIM தரவு பணிப்பாய்வுகளுக்கான சிறப்பு பயன்பாடுகளை உருவாக்குகிறது. **Tusyndon Designer** முதன்மையான திறந்த பொறியியல் தளம்—வரலாறு சார்ந்த அளவுரு CAD மற்றும் உருவகப்படுத்தல் வழிநடத்தும் வடிவமைப்பிற்கான டெஸ்க்டாப் பணிமனை அடித்தளம்.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>திறந்த பொறியியல் தளம்</h3>
-      <p>SolidDesigner அளவுரு வடிவமைப்பு நோக்கம், OCCT B-Rep வடிவியல், ஆவணப் பரிவர்த்தனைகள், நிலையான பொறியியல் அடையாளம் மற்றும் தொழில்முறை டெஸ்க்டாப் பணிமனைகளை ஒருங்கிணைக்கிறது.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>SolidDesigner-ஐ ஆராய்க →</strong></a></p>
+      <p>Tusyndon Designer அளவுரு வடிவமைப்பு நோக்கம், OCCT B-Rep வடிவியல், ஆவணப் பரிவர்த்தனைகள், நிலையான பொறியியல் அடையாளம் மற்றும் தொழில்முறை டெஸ்க்டாப் பணிமனைகளை ஒருங்கிணைக்கிறது.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Tusyndon Designer-ஐ ஆராய்க →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="SolidDesigner மற்றும் நான்கு வணிகத் தயாரிப்பு குடும்பங்களைக் கொண்ட Tusyndon பொறியியல் மென்பொருள் அமைப்பு" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon Designer மற்றும் நான்கு வணிகத் தயாரிப்பு குடும்பங்களைக் கொண்ட Tusyndon பொறியியல் மென்பொருள் அமைப்பு" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>அளவுரு பொறியியல் தளம்</h3>
-      <p>SolidDesigner என்பது மீண்டும் பயன்படுத்தக்கூடிய <strong>Alice</strong> அடித்தளம் மற்றும் <strong>OpenCascade</strong> வடிவியல் கருவில் கட்டப்பட்ட நவீன C++17/20 டெஸ்க்டாப் பயன்பாடாகும்.</p>
+      <p>Tusyndon Designer என்பது மீண்டும் பயன்படுத்தக்கூடிய <strong>Alice</strong> அடித்தளம் மற்றும் <strong>OpenCascade</strong> வடிவியல் கருவில் கட்டப்பட்ட நவீன C++17/20 டெஸ்க்டாப் பயன்பாடாகும்.</p>
       <p>திட்டம் <strong>செயலில் உள்ள முன்-ஆல்பா மேம்பாட்டில்</strong> உள்ளது. தற்போதைய குறியீடு பயன்பாட்டு உறை, பொறியியல் தரவு அடித்தளம், தொடக்க அம்ச மற்றும் கட்டுப்பாட்டு அமைப்புகள், பரிவர்த்தனை உணர்வுள்ள கட்டளைகள் மற்றும் விரிவாக்கக்கூடிய பணிமனை கட்டமைப்பை நிறுவுகிறது.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Visual Studio 2022 மூலம் கட்டமைக்கவும் →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="தற்போதைய SolidDesigner Home Workbench" />
-      <br /><sub>தற்போதைய SolidDesigner / Breptera Home Workbench · செயலில் உள்ள முன்-ஆல்பா</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="தற்போதைய Tusyndon Designer Home Workbench" />
+      <br /><sub>தற்போதைய Tusyndon Designer Home Workbench · செயலில் உள்ள முன்-ஆல்பா</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>இயந்திர வடிவமைப்பு · உற்பத்தித் தயாரிப்பு · பொறியியல் வழங்கல் · BIM தரவு</sub><br /><br />
   <a href="https://www.tusyndon.com/">நிறுவனம்</a> ·
   <a href="https://www.tusyndon.com/products">தயாரிப்புகள்</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">பொது விக்கி</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>

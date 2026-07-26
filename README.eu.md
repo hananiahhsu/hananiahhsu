@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner ingeniaritza parametrikoko plataforma" />
+    <img src="assets/tusyndon-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — Tusyndon Designer ingeniaritza parametrikoko plataforma" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.tusyndon.com/"><img alt="Tusyndon enpresaren webgunea" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.tusyndon.com/products"><img alt="Tusyndon produktuen eskaintza" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner biltegia" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="Tusyndon Designer biltegia" src="https://img.shields.io/badge/OPEN_PLATFORM-Tusyndon_Designer-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:sales@tusyndon.com"><img alt="Jarri harremanetan Tusyndonekin" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## Benetako produktuak garatzeko ingeniaritza-softwarea
 
-**Tusyndon Industrial Software** enpresak diseinu mekanikorako, fabrikazio-prestaketarako, ingeniaritza-emaitzak entregatzeko eta BIM datuen lan-fluxuetarako aplikazio espezializatuak garatzen ditu. **SolidDesigner** ingeniaritza-plataforma ireki nagusia da: historian oinarritutako CAD parametrikorako eta simulazioak gidatutako diseinurako mahaigaineko lan-ingurune modularra.
+**Tusyndon Industrial Software** enpresak diseinu mekanikorako, fabrikazio-prestaketarako, ingeniaritza-emaitzak entregatzeko eta BIM datuen lan-fluxuetarako aplikazio espezializatuak garatzen ditu. **Tusyndon Designer** ingeniaritza-plataforma ireki nagusia da: historian oinarritutako CAD parametrikorako eta simulazioak gidatutako diseinurako mahaigaineko lan-ingurune modularra.
 
 <table>
   <tr>
@@ -34,15 +34,15 @@
     </td>
     <td width="50%" valign="top">
       <h3>Ingeniaritza-plataforma irekia</h3>
-      <p>SolidDesigner-ek diseinu-asmo parametrikoa, OCCT B-Rep geometria, dokumentu-transakzioak, ingeniaritza-identitate iraunkorra eta mahaigaineko lan-ingurune profesionalak bateratzen ditu.</p>
-      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Aztertu SolidDesigner →</strong></a></p>
+      <p>Tusyndon Designer-ek diseinu-asmo parametrikoa, OCCT B-Rep geometria, dokumentu-transakzioak, ingeniaritza-identitate iraunkorra eta mahaigaineko lan-ingurune profesionalak bateratzen ditu.</p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Aztertu Tusyndon Designer →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-system.svg" width="100%" alt="SolidDesigner eta lau produktu-familia komertzial biltzen dituen Tusyndon ingeniaritza-softwarearen sistema" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon Designer eta lau produktu-familia komertzial biltzen dituen Tusyndon ingeniaritza-softwarearen sistema" />
   </a>
 </p>
 
@@ -75,19 +75,19 @@
   </tr>
 </table>
 
-## SolidDesigner
+## Tusyndon Designer
 
 <table>
   <tr>
     <td width="42%" valign="top">
       <h3>Ingeniaritza parametrikoko plataforma</h3>
-      <p>SolidDesigner C++17/20 mahaigaineko aplikazio modernoa da, berrerabil daitekeen <strong>Alice</strong> oinarrian eta <strong>OpenCascade</strong> geometria-nukleoan eraikia.</p>
+      <p>Tusyndon Designer C++17/20 mahaigaineko aplikazio modernoa da, berrerabil daitekeen <strong>Alice</strong> oinarrian eta <strong>OpenCascade</strong> geometria-nukleoan eraikia.</p>
       <p>Proiektua <strong>pre-alfa garapen aktiboan</strong> dago. Egungo kodeak aplikazio-egitura, ingeniaritza-datuen oinarria, hasierako ezaugarri- eta murrizketa-sistemak, transakzioez jabetzen diren komandoak eta lan-ingurune hedagarrien egitura ezartzen ditu.</p>
       <p><a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Konpilatu Visual Studio 2022-rekin →</strong></a></p>
     </td>
     <td width="58%" valign="top" align="center">
-      <img src="assets/solid-designer-workbench.png" width="100%" alt="SolidDesigner-en uneko Home Workbench" />
-      <br /><sub>Uneko SolidDesigner / Breptera Home Workbench · pre-alfa aktiboa</sub>
+      <img src="assets/tusyndon-designer-workbench.png" width="100%" alt="Tusyndon Designer-en uneko Home Workbench" />
+      <br /><sub>Uneko Tusyndon Designer Home Workbench · pre-alfa aktiboa</sub>
     </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@
   <sub>Diseinu mekanikoa · fabrikazio-prestaketa · ingeniaritza-entrega · BIM datuak</sub><br /><br />
   <a href="https://www.tusyndon.com/">Enpresa</a> ·
   <a href="https://www.tusyndon.com/products">Produktuak</a> ·
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner">Tusyndon Designer</a> ·
   <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Wiki publikoa</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>
