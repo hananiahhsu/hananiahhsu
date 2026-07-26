@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2172" height="724" viewBox="0 0 2172 724" role="img" aria-labelledby="title description">
+  <title id="title">Tusyndon Industrial Software — SolidDesigner</title>
+  <desc id="description">SolidDesigner is an open parametric engineering platform for design intent, feature history, and manufacturing-ready geometry.</desc>
+  <defs>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#082b68"/>
+      <stop offset="0.58" stop-color="#0b63ce"/>
+      <stop offset="1" stop-color="#13b9a5"/>
+    </linearGradient>
+    <linearGradient id="productName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#061e50"/>
+      <stop offset="0.62" stop-color="#0a4b98"/>
+      <stop offset="1" stop-color="#009e95"/>
+    </linearGradient>
+    <filter id="typeShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <image href="brand/solid-designer-hero-background.png" width="2172" height="724" preserveAspectRatio="xMidYMid slice"/>
+
+  <g font-family="Segoe UI Variable, Segoe UI, Arial, sans-serif" filter="url(#typeShadow)">
+    <image href="brand/tusyndon-logo.png" x="92" y="62" width="352" height="128" preserveAspectRatio="xMinYMid meet"/>
+
+    <rect x="94" y="221" width="646" height="8" rx="4" fill="url(#accentLine)"/>
+    <text x="92" y="329" fill="url(#productName)" font-size="100" font-weight="760" letter-spacing="-3">SolidDesigner</text>
+    <text x="97" y="383" fill="#007f7b" font-size="25" font-weight="700" letter-spacing="5">PARAMETRIC ENGINEERING PLATFORM</text>
+
+    <text x="94" y="445" fill="#172b4d" font-size="29" font-weight="600">Design intent. Feature history. Manufacturing confidence.</text>
+    <text x="94" y="490" fill="#50637d" font-size="22">Open engineering foundation for professional CAD and simulation-driven design.</text>
+  </g>
+
+  <g font-family="Segoe UI Variable, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">
+    <rect x="94" y="531" width="158" height="44" rx="22" fill="#082b68"/>
+    <text x="173" y="559" text-anchor="middle" fill="#ffffff" letter-spacing="1">OPEN SOURCE</text>
+
+    <rect x="266" y="531" width="142" height="44" rx="22" fill="#e9f2ff" stroke="#0b63ce" stroke-width="2"/>
+    <text x="337" y="559" text-anchor="middle" fill="#0b4f9f" letter-spacing="1">PRE-ALPHA</text>
+
+    <rect x="422" y="531" width="148" height="44" rx="22" fill="#e7f8f5" stroke="#13a99b" stroke-width="2"/>
+    <text x="496" y="559" text-anchor="middle" fill="#007f7b">C++ 17/20</text>
+
+    <rect x="584" y="531" width="108" height="44" rx="22" fill="#ffffff" stroke="#a8bdd2" stroke-width="2"/>
+    <text x="638" y="559" text-anchor="middle" fill="#173a68">Qt 5.15</text>
+
+    <rect x="706" y="531" width="108" height="44" rx="22" fill="#ffffff" stroke="#a8bdd2" stroke-width="2"/>
+    <text x="760" y="559" text-anchor="middle" fill="#173a68">OCCT</text>
+  </g>
+</svg>

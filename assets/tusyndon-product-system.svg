@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title description">
+  <title id="title">Tusyndon engineering software product system</title>
+  <desc id="description">The product system presents SolidDesigner alongside Tusyndon product families for drawing automation, model intelligence, manufacturing engineering, and BIM innovation.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef5fd"/>
+    </linearGradient>
+    <linearGradient id="platform" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082b68"/>
+      <stop offset="0.62" stop-color="#0b63ce"/>
+      <stop offset="1" stop-color="#009e95"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#082b68"/>
+      <stop offset="0.45" stop-color="#0b63ce"/>
+      <stop offset="1" stop-color="#12b9a5"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#2c6faf" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0b2e5e" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="760" rx="30" fill="url(#canvas)"/>
+  <rect width="1400" height="760" rx="30" fill="url(#grid)"/>
+  <path d="M0 656C270 603 406 718 674 668C925 621 1127 556 1400 619V760H0Z" fill="#0b63ce" opacity="0.035"/>
+  <path d="M0 694C276 639 457 742 714 689C950 640 1164 599 1400 651" fill="none" stroke="url(#rail)" stroke-width="3" opacity="0.5"/>
+
+  <g font-family="Segoe UI Variable, Segoe UI, Arial, sans-serif">
+    <text x="64" y="66" fill="#62758d" font-size="16" font-weight="700" letter-spacing="3.5">TUSYNDON INDUSTRIAL SOFTWARE</text>
+    <text x="64" y="111" fill="#082b68" font-size="34" font-weight="760">Engineering software product system</text>
+    <text x="1336" y="77" text-anchor="end" fill="#008d87" font-size="16" font-weight="700" letter-spacing="2">DESIGN · ENGINEER · DELIVER</text>
+
+    <g filter="url(#shadow)">
+      <rect x="64" y="162" width="430" height="480" rx="28" fill="#ffffff" stroke="#86b0da" stroke-width="2"/>
+      <rect x="64" y="162" width="430" height="12" rx="6" fill="url(#platform)"/>
+      <text x="98" y="222" fill="#0b63ce" font-size="14" font-weight="750" letter-spacing="2.5">FLAGSHIP OPEN PLATFORM</text>
+      <text x="96" y="291" fill="#082b68" font-size="47" font-weight="780" letter-spacing="-1">SolidDesigner</text>
+      <text x="98" y="329" fill="#008d87" font-size="16" font-weight="750" letter-spacing="2">PARAMETRIC CAD · CAE-READY</text>
+      <text x="98" y="371" fill="#4d627b" font-size="18">History-based modeling with a reusable</text>
+      <text x="98" y="399" fill="#4d627b" font-size="18">engineering foundation and professional</text>
+      <text x="98" y="427" fill="#4d627b" font-size="18">desktop workbenches.</text>
+
+      <circle cx="278" cy="518" r="73" fill="#edf6ff" stroke="#0b63ce" stroke-width="2"/>
+      <circle cx="278" cy="518" r="49" fill="none" stroke="#00a598" stroke-width="3"/>
+      <path d="M278 453V583M213 518H343M232 472L324 564M324 472L232 564" stroke="#0b63ce" stroke-opacity="0.34" stroke-width="2"/>
+      <path d="M255 489L278 476L301 489V516L278 530L255 516Z" fill="#ffffff" stroke="#082b68" stroke-width="3"/>
+      <circle cx="278" cy="503" r="8" fill="#12b9a5"/>
+
+      <text x="98" y="612" fill="#62758d" font-size="15">C++ 17/20 · Qt · OpenCascade · Visual Studio 2022</text>
+    </g>
+
+    <text x="548" y="180" fill="#62758d" font-size="14" font-weight="750" letter-spacing="2.5">COMMERCIAL PRODUCT FAMILIES</text>
+
+    <g filter="url(#shadow)">
+      <rect x="548" y="204" width="376" height="193" rx="22" fill="#ffffff" stroke="#bdd4e9"/>
+      <rect x="548" y="204" width="6" height="193" rx="3" fill="#0b63ce"/>
+      <rect x="576" y="231" width="49" height="49" rx="13" fill="#eaf3ff"/>
+      <path d="M590 243H611V263H590ZM595 268H616" fill="none" stroke="#0b63ce" stroke-width="3" stroke-linejoin="round"/>
+      <text x="644" y="251" fill="#0b63ce" font-size="13" font-weight="750" letter-spacing="1.6">DRAWING AUTOMATION</text>
+      <text x="576" y="309" fill="#102f5a" font-size="22" font-weight="730">Drawing Nester</text>
+      <text x="576" y="340" fill="#102f5a" font-size="22" font-weight="730">Drawing Publisher</text>
+      <text x="576" y="373" fill="#62758d" font-size="15">Layout · batch output · delivery packages</text>
+
+      <rect x="948" y="204" width="388" height="193" rx="22" fill="#ffffff" stroke="#b8ded8"/>
+      <rect x="948" y="204" width="6" height="193" rx="3" fill="#12b9a5"/>
+      <rect x="976" y="231" width="49" height="49" rx="13" fill="#e7f8f5"/>
+      <circle cx="1000" cy="255" r="15" fill="none" stroke="#009e95" stroke-width="3"/>
+      <path d="M1000 236V274M981 255H1019" stroke="#009e95" stroke-width="2"/>
+      <text x="1044" y="251" fill="#008d87" font-size="13" font-weight="750" letter-spacing="1.6">MODEL INTELLIGENCE</text>
+      <text x="976" y="309" fill="#102f5a" font-size="22" font-weight="730">PMI Reviewer</text>
+      <text x="976" y="340" fill="#102f5a" font-size="22" font-weight="730">Assembly Architect</text>
+      <text x="976" y="373" fill="#62758d" font-size="15">MBD review · interface relationships</text>
+
+      <rect x="548" y="421" width="376" height="221" rx="22" fill="#ffffff" stroke="#bdd4e9"/>
+      <rect x="548" y="421" width="6" height="221" rx="3" fill="#0b63ce"/>
+      <rect x="576" y="448" width="49" height="49" rx="13" fill="#eaf3ff"/>
+      <path d="M588 486L600 457L612 486ZM586 486H615" fill="none" stroke="#0b63ce" stroke-width="3" stroke-linejoin="round"/>
+      <text x="644" y="468" fill="#0b63ce" font-size="13" font-weight="750" letter-spacing="1.5">MANUFACTURING ENGINEERING</text>
+      <text x="576" y="526" fill="#102f5a" font-size="21" font-weight="730">Sheet Metal Nester</text>
+      <text x="576" y="557" fill="#102f5a" font-size="21" font-weight="730">Pressure Vessel Designer</text>
+      <text x="576" y="590" fill="#62758d" font-size="15">Nesting · engineering calculation · simulation</text>
+
+      <rect x="948" y="421" width="388" height="221" rx="22" fill="#ffffff" stroke="#b8ded8"/>
+      <rect x="948" y="421" width="6" height="221" rx="3" fill="#12b9a5"/>
+      <rect x="976" y="448" width="49" height="49" rx="13" fill="#e7f8f5"/>
+      <path d="M988 460H1013V485H988ZM994 466H1007V479H994Z" fill="none" stroke="#009e95" stroke-width="3"/>
+      <text x="1044" y="468" fill="#008d87" font-size="13" font-weight="750" letter-spacing="1.5">BIM &amp; ENGINEERING INNOVATION</text>
+      <text x="976" y="521" fill="#102f5a" font-size="19" font-weight="730">IFC Editor · Compare · Takeoff</text>
+      <text x="976" y="552" fill="#102f5a" font-size="21" font-weight="730">TRIZ Studio</text>
+      <text x="976" y="590" fill="#62758d" font-size="15">Engineering data · quantity · innovation methods</text>
+    </g>
+
+    <text x="700" y="718" text-anchor="middle" fill="#496783" font-size="15" font-weight="650" letter-spacing="1.4">FOCUSED SOFTWARE FOR MECHANICAL DESIGN, MANUFACTURING, AND ENGINEERING DELIVERY</text>
+  </g>
+</svg>

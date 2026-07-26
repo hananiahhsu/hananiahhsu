@@ -1,35 +1,14 @@
 <p align="center">
   <a href="https://www.tusyndon.com/">
-    <img src="assets/solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software and SolidDesigner — parametric engineering from design intent to manufactured geometry" />
+    <img src="assets/tusyndon-solid-designer-hero.png" width="100%" alt="Tusyndon Industrial Software — SolidDesigner parametric engineering platform" />
   </a>
 </p>
 
 <p align="center">
-  <strong>TUSYNDON INDUSTRIAL SOFTWARE</strong><br />
-  <sub>Precision software for product engineering, manufacturing delivery, and BIM data workflows</sub>
-</p>
-
-<h1 align="center">SolidDesigner</h1>
-
-<p align="center">
-  <strong>Engineering intent, carried from the first constraint to the final deliverable.</strong><br />
-  An open, engineering-grade platform for history-based parametric CAD and simulation-driven design.
-</p>
-
-<p align="center">
-  <a href="https://www.tusyndon.com/"><img alt="Company website" src="https://img.shields.io/badge/COMPANY-Tusyndon-0A5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.tusyndon.com/products"><img alt="Tusyndon products" src="https://img.shields.io/badge/PRODUCTS-Portfolio-102A43?style=for-the-badge&logo=databricks&logoColor=20D9FF" /></a>
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner source code" src="https://img.shields.io/badge/SOURCE-SolidDesigner-161B22?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:sales@tusyndon.com"><img alt="Contact Tusyndon" src="https://img.shields.io/badge/CONTACT-Engineering_Demo-FF8A3D?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img alt="C++ 17 and 20" src="https://img.shields.io/badge/C%2B%2B-17%20%7C%2020-00599C?logo=cplusplus&logoColor=white" />
-  <img alt="Visual Studio 2022" src="https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio&logoColor=white" />
-  <img alt="Qt Widgets" src="https://img.shields.io/badge/Qt-5.15-41CD52?logo=qt&logoColor=white" />
-  <img alt="OpenCascade geometry kernel" src="https://img.shields.io/badge/Geometry-OpenCascade-0A5CFF" />
-  <img alt="Windows and Linux" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-455A64?logo=windows11&logoColor=white" />
-  <a href="https://github.com/Ludwigstrasse/SolidDesigner/blob/main/LICENSE"><img alt="AGPL 3.0 license" src="https://img.shields.io/badge/License-AGPL--3.0-3DA639" /></a>
+  <a href="https://www.tusyndon.com/"><img alt="Tusyndon company website" src="https://img.shields.io/badge/TUSYNDON-COMPANY-082B68?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.tusyndon.com/products"><img alt="Tusyndon product portfolio" src="https://img.shields.io/badge/ENGINEERING-PRODUCTS-0B63CE?style=for-the-badge" /></a>
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner"><img alt="SolidDesigner repository" src="https://img.shields.io/badge/OPEN_PLATFORM-SolidDesigner-009E95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:sales@tusyndon.com"><img alt="Contact Tusyndon" src="https://img.shields.io/badge/CONTACT-BOOK_A_DEMO-13A99B?style=for-the-badge&logo=minutemailer&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -42,166 +21,156 @@
   <a href="README.ru.md">Русский</a>
 </p>
 
----
+## Engineering software for real product work
 
-## Industrial software, organized as a product system
+**Tusyndon Industrial Software** develops focused applications for mechanical design, manufacturing preparation, engineering delivery, and BIM data workflows. **SolidDesigner** is the flagship open engineering platform: a desktop, workbench-oriented foundation for history-based parametric CAD and simulation-driven design.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Tusyndon Industrial Software</h3>
+      <h3>Commercial engineering products</h3>
       <p>
-        Tusyndon develops focused engineering applications for manufacturing enterprises,
-        equipment design teams, and engineering delivery teams. The portfolio connects CAD
-        drawings, model definition, manufacturing preparation, pressure-vessel engineering,
-        and BIM/IFC data workflows.
+        Focused tools automate drawing delivery, model review, assembly architecture,
+        sheet-metal preparation, pressure-vessel engineering, IFC workflows, and
+        structured engineering innovation.
       </p>
-      <p>
-        <a href="https://www.tusyndon.com/products"><strong>Explore the commercial product portfolio →</strong></a>
-      </p>
+      <p><a href="https://www.tusyndon.com/products"><strong>Explore Tusyndon products →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>SolidDesigner — flagship open platform</h3>
+      <h3>Open engineering platform</h3>
       <p>
-        SolidDesigner is the open engineering platform for desktop, workbench-oriented
-        parametric CAD. It brings feature history, geometric constraints, OCCT B-Rep
-        geometry, engineering data, and product workbenches into one coherent system.
+        SolidDesigner combines parametric design intent, OCCT B-Rep geometry,
+        document transactions, persistent engineering identity, and professional
+        desktop workbenches.
       </p>
-      <p>
-        <a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Enter the SolidDesigner repository →</strong></a>
-      </p>
+      <p><a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>Explore SolidDesigner →</strong></a></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://www.tusyndon.com/products">
-    <img src="assets/tusyndon-product-portfolio.svg" width="100%" alt="Tusyndon engineering software portfolio centered on SolidDesigner" />
+    <img src="assets/tusyndon-product-system.svg" width="100%" alt="Tusyndon engineering software product system with SolidDesigner and four commercial product families" />
   </a>
 </p>
 
-## SolidDesigner — the engineering foundation
-
-SolidDesigner is a C++17/20 desktop application built on the reusable **Alice** foundation and the **OpenCascade** geometry kernel. The project is in **active pre-alpha development**: its present codebase establishes the engineering foundation, while advanced CAD, CAE, optimization, and AI-assisted workflows continue to mature.
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Parametric intent</h3>
-      <p>
-        Sketch constraints, named dimensions, feature history, dependency-aware regeneration,
-        and edit/redefine workflows give engineering changes an explicit model.
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Engineering geometry</h3>
-      <p>
-        OCCT-backed B-Rep modeling, persistent object identity, document transactions, and
-        multiple geometric representations protect model continuity as designs evolve.
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Professional workbenches</h3>
-      <p>
-        A ribbon-driven desktop shell, dockable panels, MDI viewports, commands, and modular
-        workbenches support Part, Assembly, Sketch, Drawing, Simulation, and BIM directions.
-      </p>
-    </td>
-  </tr>
-</table>
-
-> **Product status:** active development · pre-alpha. Current implementation and public roadmap are documented in the [SolidDesigner repository](https://github.com/Ludwigstrasse/SolidDesigner).
-
-## Tusyndon product portfolio
+## Tusyndon product families
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Engineering drawing automation</h3>
-      <p><strong>Tusyndon Drawing Nester</strong><br />Automatic Creo drawing layout for higher paper utilization and controlled print queues.</p>
-      <p><strong>Tusyndon Drawing Publisher</strong><br />Batch publishing to PDF and DXF with naming rules and delivery-package generation.</p>
+      <h3>Drawing automation</h3>
+      <p><strong>Tusyndon Drawing Nester</strong><br />Automatic Creo drawing layout, paper-utilization optimization, and controlled print queues.</p>
+      <p><strong>Tusyndon Drawing Publisher</strong><br />Rule-based batch publishing to PDF and DXF with structured delivery packages.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Model definition and architecture</h3>
+      <h3>Model intelligence</h3>
       <p><strong>Tusyndon PMI Reviewer</strong><br />PMI, MBD, GD&amp;T, and datum completeness review with actionable issue reports.</p>
-      <p><strong>Tusyndon Assembly Architect</strong><br />Assembly structure, interface relationships, and architecture views for complex equipment.</p>
+      <p><strong>Tusyndon Assembly Architect</strong><br />Assembly structure, system interfaces, and architecture views for complex equipment.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Manufacturing and design simulation</h3>
+      <h3>Manufacturing engineering</h3>
       <p><strong>Tusyndon Sheet Metal Nester</strong><br />DXF nesting, material-utilization optimization, and cutting-list preparation.</p>
       <p><strong>Tusyndon Pressure Vessel Designer</strong><br />Parametric vessel design, engineering calculation, and simulation preparation.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>BIM data and engineering innovation</h3>
+      <h3>BIM and engineering innovation</h3>
       <p><strong>Tusyndon IFC Editor · Compare · Takeoff</strong><br />IFC viewing, property editing, version comparison, and quantity takeoff.</p>
       <p><strong>Tusyndon TRIZ Studio</strong><br />Structured contradiction analysis and engineering innovation methods.</p>
     </td>
   </tr>
 </table>
 
+## SolidDesigner
+
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <h3>Parametric engineering platform</h3>
+      <p>
+        SolidDesigner is a modern C++17/20 desktop application built on the reusable
+        <strong>Alice</strong> foundation and the <strong>OpenCascade</strong> geometry kernel.
+      </p>
+      <p>
+        The project is in <strong>active pre-alpha development</strong>. Its current
+        codebase establishes the application shell, engineering data foundation,
+        early feature and constraint systems, transaction-aware commands, and
+        extensible workbench structure.
+      </p>
+      <p>
+        <a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Build with Visual Studio 2022 →</strong></a>
+      </p>
+    </td>
+    <td width="58%" valign="top" align="center">
+      <img src="assets/solid-designer-workbench.png" width="100%" alt="Current SolidDesigner Home Workbench" />
+      <br />
+      <sub>Current SolidDesigner / Breptera Home Workbench · active pre-alpha</sub>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <a href="https://www.tusyndon.com/solutions"><strong>Explore engineering solutions</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://www.tusyndon.com/industries"><strong>Explore supported industries</strong></a>
-  &nbsp; · &nbsp;
-  <a href="mailto:sales@tusyndon.com"><strong>Book an engineering demo</strong></a>
+  <img alt="C++ 17 and 20" src="https://img.shields.io/badge/C%2B%2B-17%20%7C%2020-00599C?logo=cplusplus&logoColor=white" />
+  <img alt="Visual Studio 2022" src="https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio&logoColor=white" />
+  <img alt="Qt 5.15" src="https://img.shields.io/badge/Qt-5.15-41CD52?logo=qt&logoColor=white" />
+  <img alt="OpenCascade" src="https://img.shields.io/badge/Geometry-OpenCascade-0B63CE" />
+  <img alt="Windows and Linux" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-455A64?logo=windows11&logoColor=white" />
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner/blob/main/LICENSE"><img alt="AGPL 3.0" src="https://img.shields.io/badge/License-AGPL--3.0-3DA639" /></a>
 </p>
 
-## From design intent to engineering delivery
+## Engineering foundations
 
 <table>
   <tr>
-    <td align="center"><strong>CONSTRAINTS</strong><br /><sub>Sketches · dimensions · rules</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>FEATURE HISTORY</strong><br /><sub>Dependencies · regenerate · redefine</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>B-REP GEOMETRY</strong><br /><sub>Solid · surface · topology</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>ENGINEERING OUTPUT</strong><br /><sub>Drawing · PMI · analysis · manufacturing</sub></td>
+    <td width="50%" valign="top">
+      <h3>Parametric model</h3>
+      <p>Sketch constraints, named dimensions, feature dependencies, deterministic regeneration, and edit/redefine workflows preserve engineering intent.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Geometry and topology</h3>
+      <p>OCCT-backed B-Rep modeling provides solid, surface, topology, and visualization capabilities for professional CAD workflows.</p>
+    </td>
   </tr>
-</table>
-
-## Explore the engineering work
-
-<table>
   <tr>
-    <td width="25%" align="center" valign="top">
-      <h3>Source</h3>
-      <p>Inspect the platform and application code.</p>
-      <a href="https://github.com/Ludwigstrasse/SolidDesigner"><strong>SolidDesigner →</strong></a>
+    <td width="50%" valign="top">
+      <h3>Document integrity</h3>
+      <p>Document transactions, ObjectId-based identity, persistent references, and command-level undo/redo protect model continuity.</p>
     </td>
-    <td width="25%" align="center" valign="top">
-      <h3>Build</h3>
-      <p>Generate the x64 solution and compile with Visual Studio 2022.</p>
-      <a href="https://github.com/Ludwigstrasse/SolidDesigner#build--run"><strong>Build guide →</strong></a>
-    </td>
-    <td width="25%" align="center" valign="top">
-      <h3>Architecture</h3>
-      <p>Read public concepts and technical documentation.</p>
-      <a href="https://github.com/hananiahhsu/SolidDesignerWiki"><strong>Public wiki →</strong></a>
-    </td>
-    <td width="25%" align="center" valign="top">
-      <h3>Collaborate</h3>
-      <p>Discuss product direction and engineering problems.</p>
-      <a href="https://github.com/Ludwigstrasse/SolidDesigner/discussions"><strong>Discussions →</strong></a>
+    <td width="50%" valign="top">
+      <h3>Professional desktop</h3>
+      <p>Ribbon commands, dockable panels, MDI viewports, selection, interaction, and modular workbenches support long-term product growth.</p>
     </td>
   </tr>
 </table>
+
+## Work with Tusyndon
+
+<p align="center">
+  <strong>Bring a real engineering workflow, representative model, drawing set, or IFC project.</strong><br />
+  We evaluate product compatibility around the actual input, process, and required deliverables.
+</p>
+
+<p align="center">
+  <a href="https://www.tusyndon.com/solutions"><strong>Engineering solutions</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://www.tusyndon.com/industries"><strong>Industries</strong></a>
+  &nbsp; · &nbsp;
+  <a href="mailto:sales@tusyndon.com"><strong>Book a product demo</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Ludwigstrasse/SolidDesigner/discussions"><strong>Engineering discussions</strong></a>
+</p>
 
 ---
 
 <p align="center">
-  <strong>Build engineering software around real industrial work.</strong><br />
-  <sub>Manufacturing · equipment · automotive · sheet metal · pressure vessels · BIM · robotics · simulation</sub>
-</p>
-
-<p align="center">
+  <strong>Tusyndon Industrial Software</strong><br />
+  <sub>Mechanical design · manufacturing preparation · engineering delivery · BIM data</sub><br /><br />
   <a href="https://www.tusyndon.com/">Company</a> ·
   <a href="https://www.tusyndon.com/products">Products</a> ·
-  <a href="https://www.tusyndon.com/solutions">Solutions</a> ·
   <a href="https://github.com/Ludwigstrasse/SolidDesigner">SolidDesigner</a> ·
+  <a href="https://github.com/hananiahhsu/SolidDesignerWiki">Public wiki</a> ·
   <a href="mailto:sales@tusyndon.com">sales@tusyndon.com</a>
 </p>
 
