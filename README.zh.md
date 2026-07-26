@@ -12,13 +12,13 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.zh.md">简体中文</a> ·
-  <a href="README.ja.md">日本語</a> ·
-  <a href="README.fr.md">Français</a> ·
-  <a href="README.de.md">Deutsch</a> ·
-  <a href="README.es.md">Español</a> ·
-  <a href="README.ru.md">Русский</a>
+  <a href="README.md">English</a> · <a href="README.zh.md">简体中文</a> · <a href="README.ja.md">日本語</a> ·
+  <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a> · <a href="README.es.md">Español</a> ·
+  <a href="README.ru.md">Русский</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.th.md">ไทย</a> ·
+  <a href="README.vi.md">Tiếng Việt</a> · <a href="README.pt.md">Português</a> · <a href="README.ms.md">Bahasa Melayu</a> ·
+  <a href="README.id.md">Bahasa Indonesia</a> · <a href="README.ko.md">한국어</a> · <a href="README.kk.md">Қазақша</a> ·
+  <a href="README.mn.md">Монгол</a> · <a href="README.uk.md">Українська</a> · <a href="README.cs.md">Čeština</a> ·
+  <a href="README.eu.md">Euskara</a> · <a href="README.ta.md">தமிழ்</a> · <a href="README.bn.md">বাংলা</a>
 </p>
 
 ## 面向真实产品研发流程的工业软件
