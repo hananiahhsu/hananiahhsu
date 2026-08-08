@@ -86,8 +86,8 @@
     <circle cx="482" cy="290" r="54" fill="none" stroke="#1f2937" stroke-width="10"/>
     <circle cx="482" cy="290" r="54" fill="none" stroke="#ff4d8d" stroke-width="10"
             stroke-linecap="round" transform="rotate(-90 482 290)"
-            stroke-dasharray="282.29 57.00"/>
-    <text class="big" x="482" y="280" text-anchor="middle" dominant-baseline="middle">83%</text>
+            stroke-dasharray="283.31 55.98"/>
+    <text class="big" x="482" y="280" text-anchor="middle" dominant-baseline="middle">84%</text>
     <text class="small" x="482" y="312" text-anchor="middle" dominant-baseline="middle">signal</text>
   </g>
 
@@ -95,17 +95,17 @@
     <text class="label" x="0" y="0" dominant-baseline="hanging">Consistency</text>
 
     <g transform="translate(0,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">144</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">145</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Active days (1y)</text>
     </g>
     <g transform="translate(170,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">0</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">18</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Current streak (days)</text>
     </g>
     <g transform="translate(340,54)">
-      <text class="big" x="0" y="0" dominant-baseline="hanging">17</text>
+      <text class="big" x="0" y="0" dominant-baseline="hanging">18</text>
       <text class="small" x="0" y="44" dominant-baseline="hanging">Longest streak (1y)</text>
-      <text class="mono" x="0" y="70" dominant-baseline="hanging">2026-07-22 → 2026-08-07</text>
+      <text class="mono" x="0" y="70" dominant-baseline="hanging">2026-07-22 → 2026-08-08</text>
     </g>
   </g>
 
@@ -120,8 +120,8 @@
       <line class="grid" x1="0" y1="136.0" x2="462" y2="136.0"/>
     </g>
 
-    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,127.3 L 119.8,123.5 L 136.9,120.3 L 154.0,136.0 L 171.1,133.8 L 188.2,130.6 L 205.3,127.9 L 222.4,132.2 L 239.6,114.3 L 256.7,123.8 L 273.8,129.5 L 290.9,127.9 L 308.0,132.2 L 325.1,60.7 L 342.2,135.5 L 359.3,118.7 L 376.4,58.0 L 393.6,113.2 L 410.7,121.6 L 427.8,79.1 L 444.9,125.7 L 462.0,136.0 L 462.0,136.0 L 0.0,136.0 Z" fill="url(#sparkFill)"/>
-    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,127.3 L 119.8,123.5 L 136.9,120.3 L 154.0,136.0 L 171.1,133.8 L 188.2,130.6 L 205.3,127.9 L 222.4,132.2 L 239.6,114.3 L 256.7,123.8 L 273.8,129.5 L 290.9,127.9 L 308.0,132.2 L 325.1,60.7 L 342.2,135.5 L 359.3,118.7 L 376.4,58.0 L 393.6,113.2 L 410.7,121.6 L 427.8,79.1 L 444.9,125.7 L 462.0,136.0" fill="none" stroke="#e5e7eb" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
-    <circle cx="462.0" cy="136.0" r="4.8" fill="#ff4d8d"/>
+    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,127.3 L 119.8,123.5 L 136.9,120.3 L 154.0,136.0 L 171.1,133.8 L 188.2,130.6 L 205.3,127.9 L 222.4,132.2 L 239.6,114.3 L 256.7,123.8 L 273.8,129.5 L 290.9,127.9 L 308.0,132.2 L 325.1,60.7 L 342.2,135.5 L 359.3,118.7 L 376.4,58.0 L 393.6,113.2 L 410.7,121.6 L 427.8,79.1 L 444.9,125.7 L 462.0,135.2 L 462.0,136.0 L 0.0,136.0 Z" fill="url(#sparkFill)"/>
+    <path d="M 0.0,136.0 L 17.1,136.0 L 34.2,136.0 L 51.3,136.0 L 68.4,136.0 L 85.6,136.0 L 102.7,127.3 L 119.8,123.5 L 136.9,120.3 L 154.0,136.0 L 171.1,133.8 L 188.2,130.6 L 205.3,127.9 L 222.4,132.2 L 239.6,114.3 L 256.7,123.8 L 273.8,129.5 L 290.9,127.9 L 308.0,132.2 L 325.1,60.7 L 342.2,135.5 L 359.3,118.7 L 376.4,58.0 L 393.6,113.2 L 410.7,121.6 L 427.8,79.1 L 444.9,125.7 L 462.0,135.2" fill="none" stroke="#e5e7eb" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+    <circle cx="462.0" cy="135.2" r="4.8" fill="#ff4d8d"/>
   </g>
 </svg>
