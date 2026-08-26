@@ -55,22 +55,22 @@
     <g transform="translate(0,0)">
       <circle cx="10" cy="12" r="5" fill="#ff4d8d"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Stars Earned</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">116</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">90</text>
     </g>
     <g transform="translate(0,38)">
       <circle cx="10" cy="12" r="5" fill="#3b82f6"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Commits</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">423</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">113</text>
     </g>
     <g transform="translate(0,76)">
       <circle cx="10" cy="12" r="5" fill="#22c55e"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total PRs</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">66</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">2</text>
     </g>
     <g transform="translate(0,114)">
       <circle cx="10" cy="12" r="5" fill="#f59e0b"/>
       <text class="label" x="26" y="0" dominant-baseline="hanging">Total Issues</text>
-      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">349</text>
+      <text class="value" x="326.0" y="-1" text-anchor="end" dominant-baseline="hanging">52</text>
     </g>
     <g transform="translate(0,152)">
       <circle cx="10" cy="12" r="5" fill="#a78bfa"/>
